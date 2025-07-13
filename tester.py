@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def take_screenshot(driver, name="failure"):
@@ -34,29 +36,36 @@ def init_driver(headless=True):
         options.add_argument("--headless")
         options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
+    # Optional: to avoid detection as a bot
+    options.add_argument("--disable-blink-features=AutomationControlled")
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
 
 def test_search_functionality(search_term, expect_results=True):
     driver = init_driver()
+    wait = WebDriverWait(driver, 10)
     try:
         driver.get("https://www.amazon.in/")
-        time.sleep(2)
-
-        search_box = driver.find_element(By.ID, "twotabsearchtextbox")
+        # Wait for search box to be clickable
+        search_box = wait.until(EC.element_to_be_clickable((By.ID, "twotabsearchtextbox")))
         search_box.clear()
         search_box.send_keys(search_term)
         search_box.send_keys(Keys.RETURN)
 
-        time.sleep(3)
+        # Wait for search results container or 'no results' message
+        wait.until(
+            EC.any_of(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")),
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.a-section.a-spacing-base"))
+            )
+        )
 
         results = driver.find_elements(By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
 
         if expect_results:
             passed = len(results) > 0
         else:
-            # Sometimes page may show text instead of results
             page_text = driver.page_source.lower()
             passed = (len(results) == 0) or ("did not match any products" in page_text or "no results for" in page_text)
 
@@ -76,6 +85,8 @@ def test_search_functionality(search_term, expect_results=True):
 
 def test_product_page(url):
     driver = init_driver()
+    wait = WebDriverWait(driver, 10)
+
     results = {
         "Add to Cart button": "FAIL",
         "Product Details section": "FAIL",
@@ -84,36 +95,40 @@ def test_product_page(url):
 
     try:
         driver.get(url)
-        time.sleep(3)
+        # Wait for the page to load product title or add to cart button as a sign of readiness
+        wait.until(EC.presence_of_element_located((By.ID, "productTitle")))
 
-        # Add to Cart button check
+        # Check Add to Cart button
         try:
-            driver.find_element(By.ID, "add-to-cart-button")
+            wait.until(EC.presence_of_element_located((By.ID, "add-to-cart-button")))
             results["Add to Cart button"] = "PASS"
         except:
             pass
 
-        # Product details check (try multiple possible IDs)
+        # Check Product Details section (try multiple possible IDs)
         try:
-            if driver.find_element(By.ID, "productDetails_techSpec_section_1") or driver.find_element(By.ID, "productDescription"):
+            if (
+                len(driver.find_elements(By.ID, "productDetails_techSpec_section_1")) > 0 or
+                len(driver.find_elements(By.ID, "productDescription")) > 0 or
+                len(driver.find_elements(By.ID, "feature-bullets")) > 0
+            ):
                 results["Product Details section"] = "PASS"
         except:
             pass
 
-        # Image gallery check (look for thumbnails or images)
+        # Check Image Gallery
         try:
             thumbnails = driver.find_elements(By.CSS_SELECTOR, "#altImages img")
             if thumbnails and len(thumbnails) > 0:
                 results["Image Gallery"] = "PASS"
             else:
-                # fallback: any img tag presence
                 imgs = driver.find_elements(By.TAG_NAME, "img")
                 if imgs and len(imgs) > 0:
                     results["Image Gallery"] = "PASS"
         except:
             pass
 
-        # Screenshot on any failure
+        # Take screenshot if any check failed
         if "FAIL" in results.values():
             take_screenshot(driver, "product_page_fail")
 
