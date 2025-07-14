@@ -20,13 +20,13 @@ def save_screenshot(driver, name):
     os.makedirs("screenshots", exist_ok=True)
     screenshot_path = f"screenshots/{name}_{timestamp}.png"
     driver.save_screenshot(screenshot_path)
-    print(f"📸 Screenshot saved: {screenshot_path}")
+    print(f"Screenshot saved: {screenshot_path}")
 
 def clear_old_screenshots():
     if os.path.exists("screenshots"):
         for f in glob.glob("screenshots/*.png"):
             os.remove(f)
-        print("🧹 Cleared old screenshots.")
+        print("Cleared old screenshots.")
 
 def crawl_amazon(search_term):
     chrome_options = Options()
@@ -40,7 +40,7 @@ def crawl_amazon(search_term):
 
     try:
         driver.get("https://www.amazon.in")
-        print("🔒 Please solve CAPTCHA manually if prompted...")
+        print("Please solve CAPTCHA manually if prompted...")
         time.sleep(20)  # Manual CAPTCHA handling
 
         search_box = wait.until(EC.presence_of_element_located((By.ID, "twotabsearchtextbox")))
@@ -51,7 +51,7 @@ def crawl_amazon(search_term):
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot")))
         product_elements = driver.find_elements(By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
 
-        print(f"🛒 Found {len(product_elements)} results for '{search_term}'.")
+        print(f"Found {len(product_elements)} results for '{search_term}'.")
 
         for idx, product in enumerate(product_elements[:10]):
             time.sleep(random.uniform(*RANDOM_WAIT_RANGE))  # Human-like delay
@@ -66,18 +66,18 @@ def crawl_amazon(search_term):
                     link = product.find_element(By.CSS_SELECTOR, "h2 a").get_attribute("href")
 
                     scraped_data.append({"name": name, "price": price, "link": link})
-                    print(f"✅ {idx + 1}. {name} | ₹{price}")
+                    print(f"{idx + 1}. {name} | ₹{price}")
                     has_error = False
                     break
                 except Exception as e:
                     retries += 1
                     has_error = True
-                    print(f"⚠️ Retry {retries}/{MAX_RETRIES} for item {idx + 1} due to error: {e}")
+                    print(f"Retry {retries}/{MAX_RETRIES} for item {idx + 1} due to error: {e}")
                     time.sleep(1)
 
             if has_error:
                 save_screenshot(driver, f"{search_term}_product_{idx + 1}_failed")
-                print(f"❌ Skipped item {idx + 1} after {MAX_RETRIES} retries.")
+                print(f"Skipped item {idx + 1} after {MAX_RETRIES} retries.")
 
         # Save to CSV
         output_path = os.path.join(OUTPUT_DIR, search_term.lower())
@@ -89,10 +89,10 @@ def crawl_amazon(search_term):
             writer.writeheader()
             writer.writerows(scraped_data)
 
-        print(f"📁 Data for '{search_term}' saved to: {csv_path}")
+        print(f"Data for '{search_term}' saved to: {csv_path}")
 
         # Negative Test
-        print("\n🔍 Performing negative test...")
+        print("\nPerforming negative test...")
         search_box = wait.until(EC.presence_of_element_located((By.ID, "twotabsearchtextbox")))
         search_box.clear()
         search_box.send_keys("ajsdhaskdjhasd")
@@ -101,14 +101,14 @@ def crawl_amazon(search_term):
         time.sleep(3)
         page_text = driver.page_source
         if "did not match any products" in page_text or "No results for" in page_text:
-            print("✅ Negative test passed: No products found for gibberish term.")
+            print("Negative test passed: No products found for gibberish term.")
         else:
-            print("❌ Negative test failed: Unexpected results for gibberish.")
+            print("Negative test failed: Unexpected results for gibberish.")
 
         return scraped_data
 
     except Exception as e:
-        print("❌ Error during crawling:", e)
+        print("Error during crawling:", e)
         save_screenshot(driver, f"{search_term}_fatal_error")
         return []
 
@@ -121,12 +121,12 @@ def main():
     search_terms = ["laptop", "smartphone"]
 
     for term in search_terms:
-        print(f"\n🚀 Starting crawl for: {term}")
+        print(f"\nStarting crawl for: {term}")
         data = crawl_amazon(term)
         if data:
-            print(f"🎉 {len(data)} products scraped for '{term}'.")
+            print(f"{len(data)} products scraped for '{term}'.")
         else:
-            print(f"⚠️ No data scraped for '{term}'. Check logs and screenshots.")
+            print(f"No data scraped for '{term}'. Check logs and screenshots.")
 
 if __name__ == "__main__":
     main()

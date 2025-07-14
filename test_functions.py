@@ -41,7 +41,7 @@ def take_screenshot(driver, test_name, identifier=""):
     suffix = f"_{identifier}" if identifier else ""
     filename = os.path.join(SCREENSHOT_DIR, f"{test_name}{suffix}_{timestamp}.png")
     driver.save_screenshot(filename)
-    logging.info(f"📸 Screenshot saved: {filename}")
+    logging.info(f"Screenshot saved: {filename}")
 
 def test_valid_search(driver):
     try:
@@ -54,10 +54,10 @@ def test_valid_search(driver):
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, ".s-result-item"))
         )
-        logging.info("✅ test_valid_search passed.")
+        logging.info("test_valid_search passed.")
     except Exception as e:
         take_screenshot(driver, "test_valid_search", "laptop")
-        logging.error("❌ test_valid_search failed", exc_info=True)
+        logging.error("test_valid_search failed", exc_info=True)
         raise
 
 def test_invalid_search(driver):
@@ -74,10 +74,10 @@ def test_invalid_search(driver):
                 EC.presence_of_element_located((By.CSS_SELECTOR, ".s-no-outline"))
             )
         )
-        logging.info("✅ test_invalid_search passed.")
+        logging.info("test_invalid_search passed.")
     except Exception as e:
         take_screenshot(driver, "test_invalid_search", "invalid_search")
-        logging.error("❌ test_invalid_search failed", exc_info=True)
+        logging.error("test_invalid_search failed", exc_info=True)
         raise
 
 def test_csv_content():
@@ -89,12 +89,12 @@ def test_csv_content():
             reader = csv.DictReader(f)
             rows = list(reader)
             if not rows:
-                pytest.skip("⚠️ CSV is empty! Skipping row validation.")
+                pytest.skip("CSV is empty! Skipping row validation.")
             for row in rows:
                 assert row["name"], "Missing product name!"
                 assert row["price"], "Missing product price!"
 
-        logging.info("✅ test_csv_content passed.")
+        logging.info("test_csv_content passed.")
     except Exception as e:
-        logging.error("❌ test_csv_content failed", exc_info=True)
+        logging.error("test_csv_content failed", exc_info=True)
         raise

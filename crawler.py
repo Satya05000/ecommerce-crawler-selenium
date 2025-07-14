@@ -19,7 +19,7 @@ def crawl_amazon(search_term, max_pages=3):
     wait = WebDriverWait(driver, 10)
 
     driver.get("https://www.amazon.in")
-    print("🔒 Please solve CAPTCHA manually if prompted...")
+    print("Please solve CAPTCHA manually if prompted...")
     time.sleep(20)  # Manual handling if CAPTCHA appears
 
     scraped_data = []
@@ -33,7 +33,7 @@ def crawl_amazon(search_term, max_pages=3):
             wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot")))
             products = driver.find_elements(By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
 
-            print(f"🔍 Page {page + 1} - Found {len(products)} product elements.")
+            print(f"Page {page + 1} - Found {len(products)} product elements.")
 
             for product in products:
                 try:
@@ -47,7 +47,7 @@ def crawl_amazon(search_term, max_pages=3):
 
                     link = product.find_element(By.CSS_SELECTOR, "h2 a").get_attribute("href")
 
-                    print(f"✅ {name} | ₹{price} | Rating: {rating}")
+                    print(f"{name} | ₹{price} | Rating: {rating}")
                     scraped_data.append({
                         "name": name,
                         "price": price,
@@ -55,7 +55,7 @@ def crawl_amazon(search_term, max_pages=3):
                         "link": link
                     })
                 except Exception as e:
-                    print("⚠️ Skipped one item due to error:", e)
+                    print("Skipped one item due to error:", e)
                     continue
 
             # Try to click next page button
@@ -65,24 +65,24 @@ def crawl_amazon(search_term, max_pages=3):
                     next_button.click()
                     time.sleep(3)
                 else:
-                    print("🚫 No more pages.")
+                    print("No more pages.")
                     break
             except Exception:
-                print("🚫 No next page button found. Ending pagination.")
+                print("No next page button found. Ending pagination.")
                 break
 
         os.makedirs("output", exist_ok=True)
         filename = f"output/{search_term.lower()}s.csv"
-        print(f"💾 Saving {len(scraped_data)} products to {filename}")
+        print(f"Saving {len(scraped_data)} products to {filename}")
         with open(filename, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=["name", "price", "rating", "link"])
             writer.writeheader()
             writer.writerows(scraped_data)
 
-        print(f"✅ Crawling complete. Data saved to {filename}")
+        print(f"Crawling complete. Data saved to {filename}")
 
         # NEGATIVE TEST: Search for gibberish product name
-        print("🔎 Performing negative test: searching for a non-existent product...")
+        print("Performing negative test: searching for a non-existent product...")
         try:
             search_box = wait.until(EC.presence_of_element_located((By.ID, "twotabsearchtextbox")))
             search_box.clear()
@@ -93,16 +93,16 @@ def crawl_amazon(search_term, max_pages=3):
             page_text = driver.page_source
 
             if "did not match any products" in page_text or "No results for" in page_text:
-                print("✅ Negative test passed: No results shown for gibberish search.")
+                print("Negative test passed: No results shown for gibberish search.")
             else:
-                print("❌ Negative test failed: Unexpected results found.")
+                print("Negative test failed: Unexpected results found.")
         except Exception as e:
-            print("⚠️ Error during negative test:", e)
+            print("Error during negative test:", e)
 
         return scraped_data
 
     except Exception as e:
-        print("❌ Failed to crawl:", e)
+        print("Failed to crawl:", e)
         return []
     finally:
         driver.quit()

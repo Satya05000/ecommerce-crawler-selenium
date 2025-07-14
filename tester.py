@@ -16,7 +16,7 @@ def take_screenshot(driver, name="failure"):
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     filepath = f"screenshots/{name}_{timestamp}.png"
     driver.save_screenshot(filepath)
-    print(f"📸 Screenshot saved: {filepath}")
+    print(f"Screenshot saved: {filepath}")
 
 
 def validate_csv(file_path="output/laptops.csv"):
@@ -26,7 +26,7 @@ def validate_csv(file_path="output/laptops.csv"):
         for row in reader:
             assert row["name"], "Product name is empty!"
             assert row["price"], "Product price is empty!"
-    print("✅ CSV content validation passed.")
+    print("CSV content validation passed.")
 
 
 def init_driver(headless=True):
