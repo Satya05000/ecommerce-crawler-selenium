@@ -61,7 +61,7 @@ python main.py
 
 ## Output CSVs will be saved under /output as:
 
-- aptops.csv
+- laptops.csv
 - smartphones.csv
 
 ## Run Tests with Pytest
