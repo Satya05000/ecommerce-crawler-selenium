@@ -1,90 +1,98 @@
-# Ecommerce Crawler & Automated Testing
+# Ecommerce Product Crawler & QA Tester
 
-Automated crawling and functional testing of an e-commerce website (Amazon India) using Selenium and Python.
-
----
-
-## Objective
-
-- Crawl product listings for a given search term (e.g., laptops).
-- Extract product details: name, price, ratings, and URL.
-- Validate product page functionalities: Add to Cart button, product details, image gallery.
-- Test search functionality with valid and invalid inputs.
-- Store crawled data in CSV files.
-- Log test results with screenshots on failures.
-- Support multi-page crawling (pagination).
-- Run tests in parallel using pytest-xdist.
+This project is a Python-based automation tool for crawling product data from [Amazon.in](https://www.amazon.in) using **Selenium WebDriver**. It includes built-in testing using **Pytest**, auto-screenshot capture, structured logs, and generates HTML test reports.
 
 ---
 
-## Tools & Frameworks Used
+## Features
 
-- Python 3.x
-- Selenium WebDriver
-- ChromeDriver
-- pytest (for test automation)
-- pytest-xdist (for parallel test execution)
-- pytest-html (for HTML reports)
+- Crawls product title, price, rating, and URL
+- Supports pagination (first page only, extendable)
+- Screenshot capture on failure
+- Headless browser mode support
+- Logs every event to `logs/crawler.log`
+- Generates `CSV` output for each search term
+- HTML test report via `pytest-html`
+- Fully modular architecture
 
 ---
 
-## Setup & Installation
+## Folder Structure
 
-1. Clone the repository:
-git clone https://github.com/Satya05000/ecommerce-crawler-selenium.git
-cd ecommerce-crawler-selenium
+ecommerce-crawler/
+├── crawler.py # Scrapes Amazon products
+├── main.py # Entry point: runs multiple searches
+├── test_functions.py # Functional tests using pytest
+├── tester.py # CLI test runner
+├── tester_utils.py # Reusable test utilities
+├── output/ # Stores generated CSV files
+├── logs/ # Logs and screenshots
+├── screenshots/ # Failure screenshots
+├── report.html # Test execution report
+├── chromedriver.exe # Required ChromeDriver (downloaded manually)
 
-2. Install required packages:
+---
+
+## Setup Instructions
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Satya05000/ecommerce-crawler.git
+cd ecommerce-crawler
+
+## 2. Install Dependencies
+
 pip install -r requirements.txt
+If requirements.txt is not present, manually install:
 
-3. Download ChromeDriver matching your Chrome browser version and place it in the project root or system PATH.
+pip install selenium pytest pytest-html
 
-How to Run
-Crawling
-Run the crawler script to search for products and save results:
-python crawler.py
-Default search term is "laptop". Modify inside the script or add input parameters as needed.
+## 3. Ensure chromedriver.exe is in the project root
 
-Testing
-Run tests using pytest with parallel execution and HTML report generation:
-pytest -n 2 --html=report.html --self-contained-html
-Test cases cover search functionality (valid and invalid), product page validations, and CSV content validation.
+Download from: https://chromedriver.chromium.org/downloads
+Ensure the version matches your installed Chrome.
 
-Screenshots are saved on failures in the screenshots/ folder.
+## Run the Crawler
 
-Assumptions & Constraints
-The crawler requires manual CAPTCHA solving if prompted on Amazon.
+Run the main crawler script for specific keywords:
 
-The project targets Amazon India (https://www.amazon.in).
+python main.py
 
-Ensure ChromeDriver is compatible with the installed Chrome browser version.
+## Output CSVs will be saved under /output as:
 
-Pagination support is implemented to crawl multiple pages.
+- aptops.csv
+- smartphones.csv
 
-Parallel testing is demonstrated using pytest-xdist.
+## Run Tests with Pytest
 
-Responsiveness testing and Selenium Grid are not included in this version.
+Run functional tests and generate HTML report:
 
-Project Structure
-ecommerce-crawler-selenium/
+pytest test_functions.py --html=report.html --self-contained-html
+If scraping fails, test will be skipped
 
-crawler.py         # Script to crawl product data
-tester.py          # Automated functional tests using Selenium
-output/            # CSV files with crawled data
-screenshots/       # Screenshots on test failures
-requirements.txt   # Python dependencies
-report.html        # Generated test report (after pytest run)
-README.md          # This file
+Screenshots on failure are saved in /logs/screenshots
 
-Sample Output
-CSV files with product details saved in output/.
+Logs are written to logs/test_log.log
 
-HTML test report report.html shows test summary and detailed results.
+## Sample Output
 
-Screenshots for failed tests saved in screenshots/.
+- output/laptops.csv
+- logs/crawler.log
+- report.html
+- screenshots/
 
-Contact
-For any questions or issues, please contact:
-Satya
-Email: ssvgangadhar@gmail.com
-GitHub: https://github.com/Satya05000
+## Test Coverage
+
+test_valid_search	Checks search results appear for "laptop, Smartphone"
+test_invalid_search	Validates Amazon handles gibberish input
+test_csv_content	Validates structure and content of CSV
+
+The negative test intentionally uses special characters (!@#$...) for robustness.
+
+Product links may occasionally fail due to DOM changes — retry logic included.
+
+## Author
+
+Satya Venkata Gangadhar Samanthula
+https://github.com/Satya05000
