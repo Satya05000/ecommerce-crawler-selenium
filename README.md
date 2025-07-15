@@ -37,7 +37,7 @@ ecommerce-crawler/
 
 ## 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Satya05000/ecommerce-crawler.git
 cd ecommerce-crawler
 
