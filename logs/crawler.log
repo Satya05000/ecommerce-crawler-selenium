@@ -1,0 +1,148 @@
+2025-07-15 22:40:53,269 [INFO] Clicked 'Continue shopping' button.
+2025-07-15 22:40:58,674 [INFO] Page 1: Found 22 products.
+2025-07-15 22:40:58,722 [WARNING] Product 1: Link not found on first attempt. Retrying...
+2025-07-15 22:40:59,753 [ERROR] Product 1: Link not found after retry.
+2025-07-15 22:40:59,792 [INFO] 1. HP 15, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver,1.59kg, fd0577TU, Iris Xe, FHD Camera w/Shutter Laptop |  | 
+2025-07-15 22:40:59,818 [WARNING] Product 2: Link not found on first attempt. Retrying...
+2025-07-15 22:41:00,830 [ERROR] Product 2: Link not found after retry.
+2025-07-15 22:41:00,865 [INFO] 2. Lenovo IdeaPad Slim 5 AMD Ryzen AI 7 350, Copilot+ AI PC(24GB RAM/1TB SSD/14(35.5cm) WUXGA OLED/AI Now/50TOPS/Win 11/Office Home 2024/Backlit Keyboard/1Yr ADP Free/Grey/1.4Kg), 83HX001NIN AI Laptop |  | 
+2025-07-15 22:41:00,896 [WARNING] Product 3: Link not found on first attempt. Retrying...
+2025-07-15 22:41:01,916 [ERROR] Product 3: Link not found after retry.
+2025-07-15 22:41:01,955 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  | 
+2025-07-15 22:41:01,988 [WARNING] Product 4: Link not found on first attempt. Retrying...
+2025-07-15 22:41:03,008 [ERROR] Product 4: Link not found after retry.
+2025-07-15 22:41:03,041 [INFO] 4. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  | 
+2025-07-15 22:41:03,073 [WARNING] Product 5: Link not found on first attempt. Retrying...
+2025-07-15 22:41:04,087 [ERROR] Product 5: Link not found after retry.
+2025-07-15 22:41:04,117 [INFO] 5. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  | 
+2025-07-15 22:41:04,143 [WARNING] Product 6: Link not found on first attempt. Retrying...
+2025-07-15 22:41:05,179 [ERROR] Product 6: Link not found after retry.
+2025-07-15 22:41:05,212 [INFO] 6. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  | 
+2025-07-15 22:41:05,238 [WARNING] Product 7: Link not found on first attempt. Retrying...
+2025-07-15 22:41:06,267 [ERROR] Product 7: Link not found after retry.
+2025-07-15 22:41:06,303 [INFO] 7. HP 15, 13th Gen Intel Core i7-1355U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6’’/39.6cm, Win11, M365(1yr)* Office 24, Silver, 1.59kg, Iris Xe, FHD Camera w/Shutter, Backlit Laptop fd0468tu/fd0515tu |  | 
+2025-07-15 22:41:06,330 [WARNING] Product 8: Link not found on first attempt. Retrying...
+2025-07-15 22:41:07,350 [ERROR] Product 8: Link not found after retry.
+2025-07-15 22:41:07,384 [INFO] 8. Lenovo IdeaPad Slim 3, Intel Core i3, 12th Gen, 8GB RAM, 512GB SSD, FHD, 15.6"/39.62cm, Windows 11, Office Home 2024, Arctic Grey, 1.63Kg, 82RK01ABIN, Intel UHD Graphics, 1Yr ADP Free Laptop |  | 
+2025-07-15 22:41:07,410 [WARNING] Product 9: Link not found on first attempt. Retrying...
+2025-07-15 22:41:08,445 [ERROR] Product 9: Link not found after retry.
+2025-07-15 22:41:08,475 [INFO] 9. HP 15, 13th Gen Intel Core i3-1315U (12GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.59kg, fd0573TU, FHD Camera w/Shutter Laptop |  | 
+2025-07-15 22:41:08,500 [WARNING] Product 10: Link not found on first attempt. Retrying...
+2025-07-15 22:41:09,522 [ERROR] Product 10: Link not found after retry.
+2025-07-15 22:41:09,554 [INFO] 10. Acer [SmartChoice Aspire 3 Laptop Intel Core Celeron N4500 Processor Laptop (8 GB LPDDR4X SDRAM/512 GB SSD/Win11 Home/38 WHR/HD Webcam) A325-45 with 39.63 cm (15.6") HD Display, Pure Silver, 1.5 KG |  | 
+2025-07-15 22:41:09,563 [INFO] Pagination ended or next button not found.
+2025-07-15 22:41:09,571 [INFO] Saved 10 items to: output/laptops.csv
+2025-07-15 22:41:09,571 [INFO] Performing negative search test...
+2025-07-15 22:41:18,099 [WARNING] Negative test failed. Unexpected content.
+2025-07-15 22:41:18,307 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_224118.png
+2025-07-15 22:41:27,492 [INFO] Clicked 'Continue shopping' button.
+2025-07-15 22:41:31,856 [INFO] Page 1: Found 22 products.
+2025-07-15 22:41:31,907 [WARNING] Product 1: Link not found on first attempt. Retrying...
+2025-07-15 22:41:32,941 [ERROR] Product 1: Link not found after retry.
+2025-07-15 22:41:32,978 [INFO] 1. Acer Super ZX 5G (Carbon Black, 6GB RAM, 128GB Storage) | 120 Hz FHD+ Display | 5000 mAh Ultra-Thin Battery | Dimensity 6300 5G Processor | Sony 64MP AI Camera |  | 
+2025-07-15 22:41:33,012 [WARNING] Product 2: Link not found on first attempt. Retrying...
+2025-07-15 22:41:34,035 [ERROR] Product 2: Link not found after retry.
+2025-07-15 22:41:34,072 [INFO] 2. Redmi A4 5G (Starry Black, 4GB RAM, 64GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
+2025-07-15 22:41:34,102 [WARNING] Product 3: Link not found on first attempt. Retrying...
+2025-07-15 22:41:35,128 [ERROR] Product 3: Link not found after retry.
+2025-07-15 22:41:35,158 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  | 
+2025-07-15 22:41:35,184 [WARNING] Product 4: Link not found on first attempt. Retrying...
+2025-07-15 22:41:36,202 [ERROR] Product 4: Link not found after retry.
+2025-07-15 22:41:36,231 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  | 
+2025-07-15 22:41:36,255 [WARNING] Product 5: Link not found on first attempt. Retrying...
+2025-07-15 22:41:37,286 [ERROR] Product 5: Link not found after retry.
+2025-07-15 22:41:37,347 [INFO] 5. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  | 
+2025-07-15 22:41:37,431 [WARNING] Product 6: Link not found on first attempt. Retrying...
+2025-07-15 22:41:38,450 [ERROR] Product 6: Link not found after retry.
+2025-07-15 22:41:38,491 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  | 
+2025-07-15 22:41:38,530 [WARNING] Product 7: Link not found on first attempt. Retrying...
+2025-07-15 22:41:39,540 [ERROR] Product 7: Link not found after retry.
+2025-07-15 22:41:39,573 [INFO] 7. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
+2025-07-15 22:41:39,599 [WARNING] Product 8: Link not found on first attempt. Retrying...
+2025-07-15 22:41:40,617 [ERROR] Product 8: Link not found after retry.
+2025-07-15 22:41:40,648 [INFO] 8. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  | 
+2025-07-15 22:41:40,676 [WARNING] Product 9: Link not found on first attempt. Retrying...
+2025-07-15 22:41:41,699 [ERROR] Product 9: Link not found after retry.
+2025-07-15 22:41:41,737 [INFO] 9. Redmi A4 5G (Starry Black, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
+2025-07-15 22:41:41,772 [WARNING] Product 10: Link not found on first attempt. Retrying...
+2025-07-15 22:41:42,793 [ERROR] Product 10: Link not found after retry.
+2025-07-15 22:41:42,824 [INFO] 10. POCO M7 5G, Satin Black (6GB, 128GB) |  | 
+2025-07-15 22:41:42,836 [INFO] Pagination ended or next button not found.
+2025-07-15 22:41:42,837 [INFO] Saved 10 items to: output/smartphones.csv
+2025-07-15 22:41:42,838 [INFO] Performing negative search test...
+2025-07-15 22:41:48,907 [WARNING] Negative test failed. Unexpected content.
+2025-07-15 22:41:49,120 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_224148.png
+2025-07-15 22:51:04,705 [INFO] Clicked 'Continue shopping' button.
+2025-07-15 22:51:29,423 [INFO] Page 1: Found 22 products.
+2025-07-15 22:51:29,596 [WARNING] Product 1: Link not found on first attempt. Retrying...
+2025-07-15 22:51:30,634 [ERROR] Product 1: Link not found after retry.
+2025-07-15 22:51:30,682 [INFO] 1. HP 15, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver,1.59kg, fd0577TU, Iris Xe, FHD Camera w/Shutter Laptop |  | 
+2025-07-15 22:51:30,774 [WARNING] Product 2: Link not found on first attempt. Retrying...
+2025-07-15 22:51:31,788 [ERROR] Product 2: Link not found after retry.
+2025-07-15 22:51:31,820 [INFO] 2. Lenovo IdeaPad Slim 5 AMD Ryzen AI 7 350, Copilot+ AI PC(24GB RAM/1TB SSD/14(35.5cm) WUXGA OLED/AI Now/50TOPS/Win 11/Office Home 2024/Backlit Keyboard/1Yr ADP Free/Grey/1.4Kg), 83HX001NIN AI Laptop |  | 
+2025-07-15 22:51:31,847 [WARNING] Product 3: Link not found on first attempt. Retrying...
+2025-07-15 22:51:32,875 [ERROR] Product 3: Link not found after retry.
+2025-07-15 22:51:32,913 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  | 
+2025-07-15 22:51:32,944 [WARNING] Product 4: Link not found on first attempt. Retrying...
+2025-07-15 22:51:33,967 [ERROR] Product 4: Link not found after retry.
+2025-07-15 22:51:34,005 [INFO] 4. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  | 
+2025-07-15 22:51:34,039 [WARNING] Product 5: Link not found on first attempt. Retrying...
+2025-07-15 22:51:35,064 [ERROR] Product 5: Link not found after retry.
+2025-07-15 22:51:35,098 [INFO] 5. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  | 
+2025-07-15 22:51:35,124 [WARNING] Product 6: Link not found on first attempt. Retrying...
+2025-07-15 22:51:36,138 [ERROR] Product 6: Link not found after retry.
+2025-07-15 22:51:36,168 [INFO] 6. HP 15, 13th Gen Intel Core i3-1315U (12GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.59kg, fd0573TU, FHD Camera w/Shutter Laptop |  | 
+2025-07-15 22:51:36,197 [WARNING] Product 7: Link not found on first attempt. Retrying...
+2025-07-15 22:51:37,234 [ERROR] Product 7: Link not found after retry.
+2025-07-15 22:51:37,275 [INFO] 7. Acer [SmartChoice Aspire Lite AMD Ryzen 5-5625U Processor, 16 GB/512 GB, Full HD, 15.6"/39.62 cm, Windows 11 Home, Steel Gray, 1.59 kg, AL15-41, Metal Body, Thin and Light Laptop |  | 
+2025-07-15 22:51:37,303 [WARNING] Product 8: Link not found on first attempt. Retrying...
+2025-07-15 22:51:38,322 [ERROR] Product 8: Link not found after retry.
+2025-07-15 22:51:38,361 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  | 
+2025-07-15 22:51:38,390 [WARNING] Product 9: Link not found on first attempt. Retrying...
+2025-07-15 22:51:39,416 [ERROR] Product 9: Link not found after retry.
+2025-07-15 22:51:39,462 [INFO] 9. HP 15, 13th Gen Intel Core i7-1355U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6’’/39.6cm, Win11, M365(1yr)* Office 24, Silver, 1.59kg, Iris Xe, FHD Camera w/Shutter, Backlit Laptop fd0468tu/fd0515tu |  | 
+2025-07-15 22:51:39,490 [WARNING] Product 10: Link not found on first attempt. Retrying...
+2025-07-15 22:51:40,510 [ERROR] Product 10: Link not found after retry.
+2025-07-15 22:51:40,633 [INFO] 10. Acer [SmartChoice Aspire 3 Laptop Intel Core Celeron N4500 Processor Laptop (8 GB LPDDR4X SDRAM/512 GB SSD/Win11 Home/38 WHR/HD Webcam) A325-45 with 39.63 cm (15.6") HD Display, Pure Silver, 1.5 KG |  | 
+2025-07-15 22:51:40,645 [INFO] Pagination ended or next button not found.
+2025-07-15 22:51:40,648 [INFO] Saved 10 items to: output/laptops.csv
+2025-07-15 22:51:40,649 [INFO] Performing negative search test...
+2025-07-15 22:51:46,298 [WARNING] Negative test failed. Unexpected content.
+2025-07-15 22:51:46,512 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_225146.png
+2025-07-15 22:52:02,902 [INFO] 'Continue shopping' button not found.
+2025-07-15 22:52:08,417 [INFO] Page 1: Found 22 products.
+2025-07-15 22:52:08,460 [WARNING] Product 1: Link not found on first attempt. Retrying...
+2025-07-15 22:52:09,472 [ERROR] Product 1: Link not found after retry.
+2025-07-15 22:52:09,510 [INFO] 1. Acer Super ZX 5G (Lunar Blue, 6GB RAM, 128GB Storage) | 120 Hz FHD+ Display | 5000 mAh Ultra-Thin Battery | Dimensity 6300 5G Processor | Sony 64MP AI Camera |  | 
+2025-07-15 22:52:09,535 [WARNING] Product 2: Link not found on first attempt. Retrying...
+2025-07-15 22:52:10,554 [ERROR] Product 2: Link not found after retry.
+2025-07-15 22:52:10,588 [INFO] 2. Redmi A4 5G (Starry Black, 4GB RAM, 64GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
+2025-07-15 22:52:10,638 [WARNING] Product 3: Link not found on first attempt. Retrying...
+2025-07-15 22:52:11,664 [ERROR] Product 3: Link not found after retry.
+2025-07-15 22:52:11,699 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  | 
+2025-07-15 22:52:11,723 [WARNING] Product 4: Link not found on first attempt. Retrying...
+2025-07-15 22:52:12,750 [ERROR] Product 4: Link not found after retry.
+2025-07-15 22:52:12,782 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  | 
+2025-07-15 22:52:12,812 [WARNING] Product 5: Link not found on first attempt. Retrying...
+2025-07-15 22:52:13,835 [ERROR] Product 5: Link not found after retry.
+2025-07-15 22:52:13,872 [INFO] 5. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  | 
+2025-07-15 22:52:13,902 [WARNING] Product 6: Link not found on first attempt. Retrying...
+2025-07-15 22:52:14,919 [ERROR] Product 6: Link not found after retry.
+2025-07-15 22:52:14,957 [INFO] 6. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  | 
+2025-07-15 22:52:14,988 [WARNING] Product 7: Link not found on first attempt. Retrying...
+2025-07-15 22:52:15,999 [ERROR] Product 7: Link not found after retry.
+2025-07-15 22:52:16,032 [INFO] 7. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
+2025-07-15 22:52:16,060 [WARNING] Product 8: Link not found on first attempt. Retrying...
+2025-07-15 22:52:17,100 [ERROR] Product 8: Link not found after retry.
+2025-07-15 22:52:17,139 [INFO] 8. Redmi A4 5G (Starry Black, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
+2025-07-15 22:52:17,167 [WARNING] Product 9: Link not found on first attempt. Retrying...
+2025-07-15 22:52:18,196 [ERROR] Product 9: Link not found after retry.
+2025-07-15 22:52:18,235 [INFO] 9. Samsung Galaxy F05 (Twilight Blue, 64 GB) (4 GB RAM) |  | 
+2025-07-15 22:52:18,260 [WARNING] Product 10: Link not found on first attempt. Retrying...
+2025-07-15 22:52:19,281 [ERROR] Product 10: Link not found after retry.
+2025-07-15 22:52:19,318 [INFO] 10. Samsung Galaxy A35 5G (Awesome Navy, 8GB RAM, 256GB Storage) | Premium Glass Back | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision Booster |  | 
+2025-07-15 22:52:19,328 [INFO] Pagination ended or next button not found.
+2025-07-15 22:52:19,329 [INFO] Saved 10 items to: output/smartphones.csv
+2025-07-15 22:52:19,329 [INFO] Performing negative search test...
+2025-07-15 22:52:28,456 [WARNING] Negative test failed. Unexpected content.
+2025-07-15 22:52:28,641 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_225228.png

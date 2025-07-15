@@ -1,73 +1,42 @@
-import os
-import csv
-import time
-import datetime
-from selenium import webdriver
+# tester.py
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-
-def take_screenshot(driver, name="failure"):
-    os.makedirs("screenshots", exist_ok=True)
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    filepath = f"screenshots/{name}_{timestamp}.png"
-    driver.save_screenshot(filepath)
-    print(f"Screenshot saved: {filepath}")
-
-
-def validate_csv(file_path="output/laptops.csv"):
-    assert os.path.exists(file_path), "CSV file not found!"
-    with open(file_path, newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            assert row["name"], "Product name is empty!"
-            assert row["price"], "Product price is empty!"
-    print("CSV content validation passed.")
-
-
-def init_driver(headless=True):
-    service = Service("./chromedriver.exe")
-    options = Options()
-    if headless:
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
-    # Optional: to avoid detection as a bot
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    driver = webdriver.Chrome(service=service, options=options)
-    return driver
+from tester_utils import init_driver, take_screenshot
+import time
 
 
 def test_search_functionality(search_term, expect_results=True):
+    """
+    Tests Amazon's search functionality for valid or invalid queries.
+    Captures screenshots on failure.
+    """
     driver = init_driver()
     wait = WebDriverWait(driver, 10)
+
     try:
         driver.get("https://www.amazon.in/")
-        # Wait for search box to be clickable
         search_box = wait.until(EC.element_to_be_clickable((By.ID, "twotabsearchtextbox")))
         search_box.clear()
         search_box.send_keys(search_term)
         search_box.send_keys(Keys.RETURN)
 
-        # Wait for search results container or 'no results' message
-        wait.until(
-            EC.any_of(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")),
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div.a-section.a-spacing-base"))
-            )
-        )
+        wait.until(EC.presence_of_element_located((By.ID, "search")))
+        time.sleep(2)
 
         results = driver.find_elements(By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
+        page_text = driver.page_source.lower()
 
         if expect_results:
             passed = len(results) > 0
         else:
-            page_text = driver.page_source.lower()
-            passed = (len(results) == 0) or ("did not match any products" in page_text or "no results for" in page_text)
+            passed = (
+                len(results) == 0 or
+                "did not match any products" in page_text or
+                "no results for" in page_text
+            )
 
         if not passed:
             take_screenshot(driver, f"search_{search_term}_fail")
@@ -76,7 +45,7 @@ def test_search_functionality(search_term, expect_results=True):
 
     except Exception as e:
         take_screenshot(driver, f"search_{search_term}_error")
-        print(f"Error during search test for '{search_term}': {e}")
+        print(f"[ERROR] Search test for '{search_term}' failed: {e}")
         return False
 
     finally:
@@ -84,6 +53,13 @@ def test_search_functionality(search_term, expect_results=True):
 
 
 def test_product_page(url):
+    """
+    Tests individual Amazon product page for presence of:
+    - Add to Cart button
+    - Product description/specs
+    - Image gallery
+    Captures screenshot if any validation fails.
+    """
     driver = init_driver()
     wait = WebDriverWait(driver, 10)
 
@@ -95,40 +71,36 @@ def test_product_page(url):
 
     try:
         driver.get(url)
-        # Wait for the page to load product title or add to cart button as a sign of readiness
         wait.until(EC.presence_of_element_located((By.ID, "productTitle")))
 
-        # Check Add to Cart button
+        # Check: Add to Cart button
         try:
-            wait.until(EC.presence_of_element_located((By.ID, "add-to-cart-button")))
-            results["Add to Cart button"] = "PASS"
+            if driver.find_element(By.ID, "add-to-cart-button"):
+                results["Add to Cart button"] = "PASS"
         except:
             pass
 
-        # Check Product Details section (try multiple possible IDs)
+        # Check: Product details/description/specs
         try:
             if (
-                len(driver.find_elements(By.ID, "productDetails_techSpec_section_1")) > 0 or
-                len(driver.find_elements(By.ID, "productDescription")) > 0 or
-                len(driver.find_elements(By.ID, "feature-bullets")) > 0
+                driver.find_elements(By.ID, "productDetails_techSpec_section_1") or
+                driver.find_elements(By.ID, "productDescription") or
+                driver.find_elements(By.ID, "feature-bullets")
             ):
                 results["Product Details section"] = "PASS"
         except:
             pass
 
-        # Check Image Gallery
+        # Check: Image gallery
         try:
             thumbnails = driver.find_elements(By.CSS_SELECTOR, "#altImages img")
-            if thumbnails and len(thumbnails) > 0:
+            if thumbnails:
                 results["Image Gallery"] = "PASS"
-            else:
-                imgs = driver.find_elements(By.TAG_NAME, "img")
-                if imgs and len(imgs) > 0:
-                    results["Image Gallery"] = "PASS"
+            elif driver.find_elements(By.TAG_NAME, "img"):
+                results["Image Gallery"] = "PASS"
         except:
             pass
 
-        # Take screenshot if any check failed
         if "FAIL" in results.values():
             take_screenshot(driver, "product_page_fail")
 
@@ -136,7 +108,7 @@ def test_product_page(url):
 
     except Exception as e:
         take_screenshot(driver, "product_page_error")
-        print(f"Error testing product page {url}: {e}")
+        print(f"[ERROR] Product page test failed for {url}: {e}")
         return results
 
     finally:

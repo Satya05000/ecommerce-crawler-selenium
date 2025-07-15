@@ -1,8 +1,8 @@
-import pytest
 import os
 import csv
 import logging
 import shutil
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -15,13 +15,12 @@ OUTPUT_DIR = "output/laptop"
 SCREENSHOT_DIR = "logs/screenshots"
 LOG_FILE = "logs/test_log.log"
 
-# Setup folders and clean screenshot dir
+# Prepare folders and logging
 if os.path.exists(SCREENSHOT_DIR):
     shutil.rmtree(SCREENSHOT_DIR)
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 os.makedirs("logs", exist_ok=True)
 
-# Setup logger
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO,
                     format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -46,14 +45,18 @@ def take_screenshot(driver, test_name, identifier=""):
 def test_valid_search(driver):
     try:
         driver.get("https://www.amazon.in/")
-        WebDriverWait(driver, 10).until(
+        search_box = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "twotabsearchtextbox"))
-        ).send_keys("laptop")
+        )
+        search_box.send_keys("laptop")
         driver.find_element(By.ID, "nav-search-submit-button").click()
 
         WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".s-result-item"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot"))
         )
+
+        results = driver.find_elements(By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
+        assert results, "No search results found!"
         logging.info("test_valid_search passed.")
     except Exception as e:
         take_screenshot(driver, "test_valid_search", "laptop")
@@ -89,11 +92,10 @@ def test_csv_content():
             reader = csv.DictReader(f)
             rows = list(reader)
             if not rows:
-                pytest.skip("CSV is empty! Skipping row validation.")
+                pytest.skip("CSV is empty. Skipping validation until data is scraped successfully.")
             for row in rows:
-                assert row["name"], "Missing product name!"
-                assert row["price"], "Missing product price!"
-
+                assert row.get("name"), "Missing product name!"
+                assert row.get("price"), "Missing product price!"
         logging.info("test_csv_content passed.")
     except Exception as e:
         logging.error("test_csv_content failed", exc_info=True)
