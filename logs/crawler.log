@@ -1,148 +1,1020 @@
-2025-07-15 22:40:53,269 [INFO] Clicked 'Continue shopping' button.
-2025-07-15 22:40:58,674 [INFO] Page 1: Found 22 products.
-2025-07-15 22:40:58,722 [WARNING] Product 1: Link not found on first attempt. Retrying...
-2025-07-15 22:40:59,753 [ERROR] Product 1: Link not found after retry.
-2025-07-15 22:40:59,792 [INFO] 1. HP 15, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver,1.59kg, fd0577TU, Iris Xe, FHD Camera w/Shutter Laptop |  | 
-2025-07-15 22:40:59,818 [WARNING] Product 2: Link not found on first attempt. Retrying...
-2025-07-15 22:41:00,830 [ERROR] Product 2: Link not found after retry.
-2025-07-15 22:41:00,865 [INFO] 2. Lenovo IdeaPad Slim 5 AMD Ryzen AI 7 350, Copilot+ AI PC(24GB RAM/1TB SSD/14(35.5cm) WUXGA OLED/AI Now/50TOPS/Win 11/Office Home 2024/Backlit Keyboard/1Yr ADP Free/Grey/1.4Kg), 83HX001NIN AI Laptop |  | 
-2025-07-15 22:41:00,896 [WARNING] Product 3: Link not found on first attempt. Retrying...
-2025-07-15 22:41:01,916 [ERROR] Product 3: Link not found after retry.
-2025-07-15 22:41:01,955 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  | 
-2025-07-15 22:41:01,988 [WARNING] Product 4: Link not found on first attempt. Retrying...
-2025-07-15 22:41:03,008 [ERROR] Product 4: Link not found after retry.
-2025-07-15 22:41:03,041 [INFO] 4. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  | 
-2025-07-15 22:41:03,073 [WARNING] Product 5: Link not found on first attempt. Retrying...
-2025-07-15 22:41:04,087 [ERROR] Product 5: Link not found after retry.
-2025-07-15 22:41:04,117 [INFO] 5. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  | 
-2025-07-15 22:41:04,143 [WARNING] Product 6: Link not found on first attempt. Retrying...
-2025-07-15 22:41:05,179 [ERROR] Product 6: Link not found after retry.
-2025-07-15 22:41:05,212 [INFO] 6. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  | 
-2025-07-15 22:41:05,238 [WARNING] Product 7: Link not found on first attempt. Retrying...
-2025-07-15 22:41:06,267 [ERROR] Product 7: Link not found after retry.
-2025-07-15 22:41:06,303 [INFO] 7. HP 15, 13th Gen Intel Core i7-1355U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6’’/39.6cm, Win11, M365(1yr)* Office 24, Silver, 1.59kg, Iris Xe, FHD Camera w/Shutter, Backlit Laptop fd0468tu/fd0515tu |  | 
-2025-07-15 22:41:06,330 [WARNING] Product 8: Link not found on first attempt. Retrying...
-2025-07-15 22:41:07,350 [ERROR] Product 8: Link not found after retry.
-2025-07-15 22:41:07,384 [INFO] 8. Lenovo IdeaPad Slim 3, Intel Core i3, 12th Gen, 8GB RAM, 512GB SSD, FHD, 15.6"/39.62cm, Windows 11, Office Home 2024, Arctic Grey, 1.63Kg, 82RK01ABIN, Intel UHD Graphics, 1Yr ADP Free Laptop |  | 
-2025-07-15 22:41:07,410 [WARNING] Product 9: Link not found on first attempt. Retrying...
-2025-07-15 22:41:08,445 [ERROR] Product 9: Link not found after retry.
-2025-07-15 22:41:08,475 [INFO] 9. HP 15, 13th Gen Intel Core i3-1315U (12GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.59kg, fd0573TU, FHD Camera w/Shutter Laptop |  | 
-2025-07-15 22:41:08,500 [WARNING] Product 10: Link not found on first attempt. Retrying...
-2025-07-15 22:41:09,522 [ERROR] Product 10: Link not found after retry.
-2025-07-15 22:41:09,554 [INFO] 10. Acer [SmartChoice Aspire 3 Laptop Intel Core Celeron N4500 Processor Laptop (8 GB LPDDR4X SDRAM/512 GB SSD/Win11 Home/38 WHR/HD Webcam) A325-45 with 39.63 cm (15.6") HD Display, Pure Silver, 1.5 KG |  | 
-2025-07-15 22:41:09,563 [INFO] Pagination ended or next button not found.
-2025-07-15 22:41:09,571 [INFO] Saved 10 items to: output/laptops.csv
-2025-07-15 22:41:09,571 [INFO] Performing negative search test...
-2025-07-15 22:41:18,099 [WARNING] Negative test failed. Unexpected content.
-2025-07-15 22:41:18,307 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_224118.png
-2025-07-15 22:41:27,492 [INFO] Clicked 'Continue shopping' button.
-2025-07-15 22:41:31,856 [INFO] Page 1: Found 22 products.
-2025-07-15 22:41:31,907 [WARNING] Product 1: Link not found on first attempt. Retrying...
-2025-07-15 22:41:32,941 [ERROR] Product 1: Link not found after retry.
-2025-07-15 22:41:32,978 [INFO] 1. Acer Super ZX 5G (Carbon Black, 6GB RAM, 128GB Storage) | 120 Hz FHD+ Display | 5000 mAh Ultra-Thin Battery | Dimensity 6300 5G Processor | Sony 64MP AI Camera |  | 
-2025-07-15 22:41:33,012 [WARNING] Product 2: Link not found on first attempt. Retrying...
-2025-07-15 22:41:34,035 [ERROR] Product 2: Link not found after retry.
-2025-07-15 22:41:34,072 [INFO] 2. Redmi A4 5G (Starry Black, 4GB RAM, 64GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
-2025-07-15 22:41:34,102 [WARNING] Product 3: Link not found on first attempt. Retrying...
-2025-07-15 22:41:35,128 [ERROR] Product 3: Link not found after retry.
-2025-07-15 22:41:35,158 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  | 
-2025-07-15 22:41:35,184 [WARNING] Product 4: Link not found on first attempt. Retrying...
-2025-07-15 22:41:36,202 [ERROR] Product 4: Link not found after retry.
-2025-07-15 22:41:36,231 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  | 
-2025-07-15 22:41:36,255 [WARNING] Product 5: Link not found on first attempt. Retrying...
-2025-07-15 22:41:37,286 [ERROR] Product 5: Link not found after retry.
-2025-07-15 22:41:37,347 [INFO] 5. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  | 
-2025-07-15 22:41:37,431 [WARNING] Product 6: Link not found on first attempt. Retrying...
-2025-07-15 22:41:38,450 [ERROR] Product 6: Link not found after retry.
-2025-07-15 22:41:38,491 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  | 
-2025-07-15 22:41:38,530 [WARNING] Product 7: Link not found on first attempt. Retrying...
-2025-07-15 22:41:39,540 [ERROR] Product 7: Link not found after retry.
-2025-07-15 22:41:39,573 [INFO] 7. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
-2025-07-15 22:41:39,599 [WARNING] Product 8: Link not found on first attempt. Retrying...
-2025-07-15 22:41:40,617 [ERROR] Product 8: Link not found after retry.
-2025-07-15 22:41:40,648 [INFO] 8. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  | 
-2025-07-15 22:41:40,676 [WARNING] Product 9: Link not found on first attempt. Retrying...
-2025-07-15 22:41:41,699 [ERROR] Product 9: Link not found after retry.
-2025-07-15 22:41:41,737 [INFO] 9. Redmi A4 5G (Starry Black, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
-2025-07-15 22:41:41,772 [WARNING] Product 10: Link not found on first attempt. Retrying...
-2025-07-15 22:41:42,793 [ERROR] Product 10: Link not found after retry.
-2025-07-15 22:41:42,824 [INFO] 10. POCO M7 5G, Satin Black (6GB, 128GB) |  | 
-2025-07-15 22:41:42,836 [INFO] Pagination ended or next button not found.
-2025-07-15 22:41:42,837 [INFO] Saved 10 items to: output/smartphones.csv
-2025-07-15 22:41:42,838 [INFO] Performing negative search test...
-2025-07-15 22:41:48,907 [WARNING] Negative test failed. Unexpected content.
-2025-07-15 22:41:49,120 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_224148.png
-2025-07-15 22:51:04,705 [INFO] Clicked 'Continue shopping' button.
-2025-07-15 22:51:29,423 [INFO] Page 1: Found 22 products.
-2025-07-15 22:51:29,596 [WARNING] Product 1: Link not found on first attempt. Retrying...
-2025-07-15 22:51:30,634 [ERROR] Product 1: Link not found after retry.
-2025-07-15 22:51:30,682 [INFO] 1. HP 15, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver,1.59kg, fd0577TU, Iris Xe, FHD Camera w/Shutter Laptop |  | 
-2025-07-15 22:51:30,774 [WARNING] Product 2: Link not found on first attempt. Retrying...
-2025-07-15 22:51:31,788 [ERROR] Product 2: Link not found after retry.
-2025-07-15 22:51:31,820 [INFO] 2. Lenovo IdeaPad Slim 5 AMD Ryzen AI 7 350, Copilot+ AI PC(24GB RAM/1TB SSD/14(35.5cm) WUXGA OLED/AI Now/50TOPS/Win 11/Office Home 2024/Backlit Keyboard/1Yr ADP Free/Grey/1.4Kg), 83HX001NIN AI Laptop |  | 
-2025-07-15 22:51:31,847 [WARNING] Product 3: Link not found on first attempt. Retrying...
-2025-07-15 22:51:32,875 [ERROR] Product 3: Link not found after retry.
-2025-07-15 22:51:32,913 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  | 
-2025-07-15 22:51:32,944 [WARNING] Product 4: Link not found on first attempt. Retrying...
-2025-07-15 22:51:33,967 [ERROR] Product 4: Link not found after retry.
-2025-07-15 22:51:34,005 [INFO] 4. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  | 
-2025-07-15 22:51:34,039 [WARNING] Product 5: Link not found on first attempt. Retrying...
-2025-07-15 22:51:35,064 [ERROR] Product 5: Link not found after retry.
-2025-07-15 22:51:35,098 [INFO] 5. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  | 
-2025-07-15 22:51:35,124 [WARNING] Product 6: Link not found on first attempt. Retrying...
-2025-07-15 22:51:36,138 [ERROR] Product 6: Link not found after retry.
-2025-07-15 22:51:36,168 [INFO] 6. HP 15, 13th Gen Intel Core i3-1315U (12GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.59kg, fd0573TU, FHD Camera w/Shutter Laptop |  | 
-2025-07-15 22:51:36,197 [WARNING] Product 7: Link not found on first attempt. Retrying...
-2025-07-15 22:51:37,234 [ERROR] Product 7: Link not found after retry.
-2025-07-15 22:51:37,275 [INFO] 7. Acer [SmartChoice Aspire Lite AMD Ryzen 5-5625U Processor, 16 GB/512 GB, Full HD, 15.6"/39.62 cm, Windows 11 Home, Steel Gray, 1.59 kg, AL15-41, Metal Body, Thin and Light Laptop |  | 
-2025-07-15 22:51:37,303 [WARNING] Product 8: Link not found on first attempt. Retrying...
-2025-07-15 22:51:38,322 [ERROR] Product 8: Link not found after retry.
-2025-07-15 22:51:38,361 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  | 
-2025-07-15 22:51:38,390 [WARNING] Product 9: Link not found on first attempt. Retrying...
-2025-07-15 22:51:39,416 [ERROR] Product 9: Link not found after retry.
-2025-07-15 22:51:39,462 [INFO] 9. HP 15, 13th Gen Intel Core i7-1355U (16GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6’’/39.6cm, Win11, M365(1yr)* Office 24, Silver, 1.59kg, Iris Xe, FHD Camera w/Shutter, Backlit Laptop fd0468tu/fd0515tu |  | 
-2025-07-15 22:51:39,490 [WARNING] Product 10: Link not found on first attempt. Retrying...
-2025-07-15 22:51:40,510 [ERROR] Product 10: Link not found after retry.
-2025-07-15 22:51:40,633 [INFO] 10. Acer [SmartChoice Aspire 3 Laptop Intel Core Celeron N4500 Processor Laptop (8 GB LPDDR4X SDRAM/512 GB SSD/Win11 Home/38 WHR/HD Webcam) A325-45 with 39.63 cm (15.6") HD Display, Pure Silver, 1.5 KG |  | 
-2025-07-15 22:51:40,645 [INFO] Pagination ended or next button not found.
-2025-07-15 22:51:40,648 [INFO] Saved 10 items to: output/laptops.csv
-2025-07-15 22:51:40,649 [INFO] Performing negative search test...
-2025-07-15 22:51:46,298 [WARNING] Negative test failed. Unexpected content.
-2025-07-15 22:51:46,512 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_225146.png
-2025-07-15 22:52:02,902 [INFO] 'Continue shopping' button not found.
-2025-07-15 22:52:08,417 [INFO] Page 1: Found 22 products.
-2025-07-15 22:52:08,460 [WARNING] Product 1: Link not found on first attempt. Retrying...
-2025-07-15 22:52:09,472 [ERROR] Product 1: Link not found after retry.
-2025-07-15 22:52:09,510 [INFO] 1. Acer Super ZX 5G (Lunar Blue, 6GB RAM, 128GB Storage) | 120 Hz FHD+ Display | 5000 mAh Ultra-Thin Battery | Dimensity 6300 5G Processor | Sony 64MP AI Camera |  | 
-2025-07-15 22:52:09,535 [WARNING] Product 2: Link not found on first attempt. Retrying...
-2025-07-15 22:52:10,554 [ERROR] Product 2: Link not found after retry.
-2025-07-15 22:52:10,588 [INFO] 2. Redmi A4 5G (Starry Black, 4GB RAM, 64GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
-2025-07-15 22:52:10,638 [WARNING] Product 3: Link not found on first attempt. Retrying...
-2025-07-15 22:52:11,664 [ERROR] Product 3: Link not found after retry.
-2025-07-15 22:52:11,699 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  | 
-2025-07-15 22:52:11,723 [WARNING] Product 4: Link not found on first attempt. Retrying...
-2025-07-15 22:52:12,750 [ERROR] Product 4: Link not found after retry.
-2025-07-15 22:52:12,782 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  | 
-2025-07-15 22:52:12,812 [WARNING] Product 5: Link not found on first attempt. Retrying...
-2025-07-15 22:52:13,835 [ERROR] Product 5: Link not found after retry.
-2025-07-15 22:52:13,872 [INFO] 5. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  | 
-2025-07-15 22:52:13,902 [WARNING] Product 6: Link not found on first attempt. Retrying...
-2025-07-15 22:52:14,919 [ERROR] Product 6: Link not found after retry.
-2025-07-15 22:52:14,957 [INFO] 6. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  | 
-2025-07-15 22:52:14,988 [WARNING] Product 7: Link not found on first attempt. Retrying...
-2025-07-15 22:52:15,999 [ERROR] Product 7: Link not found after retry.
-2025-07-15 22:52:16,032 [INFO] 7. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
-2025-07-15 22:52:16,060 [WARNING] Product 8: Link not found on first attempt. Retrying...
-2025-07-15 22:52:17,100 [ERROR] Product 8: Link not found after retry.
-2025-07-15 22:52:17,139 [INFO] 8. Redmi A4 5G (Starry Black, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  | 
-2025-07-15 22:52:17,167 [WARNING] Product 9: Link not found on first attempt. Retrying...
-2025-07-15 22:52:18,196 [ERROR] Product 9: Link not found after retry.
-2025-07-15 22:52:18,235 [INFO] 9. Samsung Galaxy F05 (Twilight Blue, 64 GB) (4 GB RAM) |  | 
-2025-07-15 22:52:18,260 [WARNING] Product 10: Link not found on first attempt. Retrying...
-2025-07-15 22:52:19,281 [ERROR] Product 10: Link not found after retry.
-2025-07-15 22:52:19,318 [INFO] 10. Samsung Galaxy A35 5G (Awesome Navy, 8GB RAM, 256GB Storage) | Premium Glass Back | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision Booster |  | 
-2025-07-15 22:52:19,328 [INFO] Pagination ended or next button not found.
-2025-07-15 22:52:19,329 [INFO] Saved 10 items to: output/smartphones.csv
-2025-07-15 22:52:19,329 [INFO] Performing negative search test...
-2025-07-15 22:52:28,456 [WARNING] Negative test failed. Unexpected content.
-2025-07-15 22:52:28,641 [INFO] Screenshot saved: screenshots/negative_test_failed_20250715_225228.png
+2025-07-17 16:54:44,070 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 16:54:48,565 [INFO] Page 1: Found 22 products.
+2025-07-17 16:54:48,847 [ERROR] Error processing item 1: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a[contains(@href, '/dp/')]"}
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9cda]
+	(No symbol) [0x0x7ff7489506aa]
+	(No symbol) [0x0x7ff74895095c]
+	(No symbol) [0x0x7ff7489430ac]
+	(No symbol) [0x0x7ff74897890f]
+	(No symbol) [0x0x7ff748942f76]
+	(No symbol) [0x0x7ff748978ae0]
+	(No symbol) [0x0x7ff7489a0b07]
+	(No symbol) [0x0x7ff7489786a3]
+	(No symbol) [0x0x7ff748941791]
+	(No symbol) [0x0x7ff748942523]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	GetHandleVerifier [0x0x7ff748b472d4+113092]
+	GetHandleVerifier [0x0x7ff748b47489+113529]
+	GetHandleVerifier [0x0x7ff748b2e288+10616]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:54:49,013 [INFO] Screenshot saved: screenshots/laptop_product_1_error_20250717_165448.png
+2025-07-17 16:54:49,121 [ERROR] Error processing item 2: Message: no such element: element not found
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9cda]
+	(No symbol) [0x0x7ff7489100f4]
+	(No symbol) [0x0x7ff74890ebc3]
+	(No symbol) [0x0x7ff7489023d9]
+	(No symbol) [0x0x7ff748902553]
+	(No symbol) [0x0x7ff74890028f]
+	(No symbol) [0x0x7ff748904a61]
+	(No symbol) [0x0x7ff7489a1e4b]
+	(No symbol) [0x0x7ff7489788ca]
+	(No symbol) [0x0x7ff7489a0b07]
+	(No symbol) [0x0x7ff7489786a3]
+	(No symbol) [0x0x7ff748941791]
+	(No symbol) [0x0x7ff748942523]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	GetHandleVerifier [0x0x7ff748b472d4+113092]
+	GetHandleVerifier [0x0x7ff748b47489+113529]
+	GetHandleVerifier [0x0x7ff748b2e288+10616]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:54:49,243 [INFO] Screenshot saved: screenshots/laptop_product_2_error_20250717_165449.png
+2025-07-17 16:54:49,550 [ERROR] Error processing item 3: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:54:49,552 [CRITICAL] Fatal error during crawl: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 73, in crawl_amazon
+    driver.execute_script("arguments[0].scrollIntoView();", product)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 115, in crawl_amazon
+    take_screenshot(driver, f"{search_term}_product_{idx+1}_error")
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 27, in take_screenshot
+    driver.save_screenshot(filepath)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1021, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 996, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1030, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1040, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:54:51,582 [CRITICAL] Unexpected failure during crawl for 'laptop': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 73, in crawl_amazon
+    driver.execute_script("arguments[0].scrollIntoView();", product)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 115, in crawl_amazon
+    take_screenshot(driver, f"{search_term}_product_{idx+1}_error")
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 27, in take_screenshot
+    driver.save_screenshot(filepath)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1021, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 996, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1030, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1040, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\main.py", line 17, in main
+    data = crawl_amazon(term, max_pages=1, headless=False)
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 151, in crawl_amazon
+    take_screenshot(driver, f"{search_term}_fatal")
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 27, in take_screenshot
+    driver.save_screenshot(filepath)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1021, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 996, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1030, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1040, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:55:02,563 [INFO] 'Continue shopping' button not found.
+2025-07-17 16:55:05,282 [INFO] Page 1: Found 22 products.
+2025-07-17 16:55:05,554 [ERROR] Error processing item 1: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a[contains(@href, '/dp/')]"}
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9cda]
+	(No symbol) [0x0x7ff7489506aa]
+	(No symbol) [0x0x7ff74895095c]
+	(No symbol) [0x0x7ff7489430ac]
+	(No symbol) [0x0x7ff74897890f]
+	(No symbol) [0x0x7ff748942f76]
+	(No symbol) [0x0x7ff748978ae0]
+	(No symbol) [0x0x7ff7489a0b07]
+	(No symbol) [0x0x7ff7489786a3]
+	(No symbol) [0x0x7ff748941791]
+	(No symbol) [0x0x7ff748942523]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	GetHandleVerifier [0x0x7ff748b472d4+113092]
+	GetHandleVerifier [0x0x7ff748b47489+113529]
+	GetHandleVerifier [0x0x7ff748b2e288+10616]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:55:05,754 [INFO] Screenshot saved: screenshots/smartphone_product_1_error_20250717_165505.png
+2025-07-17 16:55:05,857 [ERROR] Error processing item 2: Message: no such element: element not found
+  (Session info: chrome=138.0.7204.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9cda]
+	(No symbol) [0x0x7ff7489100f4]
+	(No symbol) [0x0x7ff74890ebc3]
+	(No symbol) [0x0x7ff7489023d9]
+	(No symbol) [0x0x7ff748902553]
+	(No symbol) [0x0x7ff74890028f]
+	(No symbol) [0x0x7ff748904a61]
+	(No symbol) [0x0x7ff7489a1e4b]
+	(No symbol) [0x0x7ff7489788ca]
+	(No symbol) [0x0x7ff7489a0b07]
+	(No symbol) [0x0x7ff7489786a3]
+	(No symbol) [0x0x7ff748941791]
+	(No symbol) [0x0x7ff748942523]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	GetHandleVerifier [0x0x7ff748b472d4+113092]
+	GetHandleVerifier [0x0x7ff748b47489+113529]
+	GetHandleVerifier [0x0x7ff748b2e288+10616]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:55:05,977 [INFO] Screenshot saved: screenshots/smartphone_product_2_error_20250717_165505.png
+2025-07-17 16:55:06,295 [ERROR] Error processing item 3: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:55:06,296 [CRITICAL] Fatal error during crawl: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 73, in crawl_amazon
+    driver.execute_script("arguments[0].scrollIntoView();", product)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 115, in crawl_amazon
+    take_screenshot(driver, f"{search_term}_product_{idx+1}_error")
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 27, in take_screenshot
+    driver.save_screenshot(filepath)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1021, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 996, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1030, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1040, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 16:55:08,310 [CRITICAL] Unexpected failure during crawl for 'smartphone': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 73, in crawl_amazon
+    driver.execute_script("arguments[0].scrollIntoView();", product)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 551, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 115, in crawl_amazon
+    take_screenshot(driver, f"{search_term}_product_{idx+1}_error")
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 27, in take_screenshot
+    driver.save_screenshot(filepath)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1021, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 996, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1030, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1040, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\main.py", line 17, in main
+    data = crawl_amazon(term, max_pages=1, headless=False)
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 151, in crawl_amazon
+    take_screenshot(driver, f"{search_term}_fatal")
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\crawler.py", line 27, in take_screenshot
+    driver.save_screenshot(filepath)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1021, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 996, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1030, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1040, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ssvga\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff748b3e925+77845]
+	GetHandleVerifier [0x0x7ff748b3e980+77936]
+	(No symbol) [0x0x7ff7488f9b0c]
+	(No symbol) [0x0x7ff7489408bf]
+	(No symbol) [0x0x7ff748978792]
+	(No symbol) [0x0x7ff748973293]
+	(No symbol) [0x0x7ff748972359]
+	(No symbol) [0x0x7ff7488c4b05]
+	GetHandleVerifier [0x0x7ff748e1683d+3059501]
+	GetHandleVerifier [0x0x7ff748e10bfd+3035885]
+	GetHandleVerifier [0x0x7ff748e303f0+3164896]
+	GetHandleVerifier [0x0x7ff748b58c2e+185118]
+	GetHandleVerifier [0x0x7ff748b6053f+216111]
+	(No symbol) [0x0x7ff7488c3b00]
+	GetHandleVerifier [0x0x7ff748f3bd88+4260984]
+	BaseThreadInitThunk [0x0x7ffe07f7e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0915c34c+44]
+
+2025-07-17 17:00:26,764 [INFO] 'Continue shopping' button not found.
+2025-07-17 17:00:31,234 [INFO] Page 1: Found 22 products.
+2025-07-17 17:00:31,825 [WARNING] Product 1: Link not found.
+2025-07-17 17:00:31,866 [INFO] 1. ASUS Vivobook Go 14, AMD Ryzen 5 7520U,Thin & Light (AMD Radeon iGPU/16GB RAM/512GB SSD/FHD/14/60Hz/42WHrs/Windows 11/M365 Basic (1Year)*/Office Home 2024/Cool Silver/1.38 kg) E1404FA-NK5541WS |  |  | 
+2025-07-17 17:00:32,421 [WARNING] Product 2: Link not found.
+2025-07-17 17:00:32,448 [INFO] 2. ASUS Vivobook 15,13th Gen,Intel Core i5-13420H(Intel UHD iGPU/16GB RAM/512GB SSD/FHD/15.6"/60Hz/Backlit Keyboard/Windows 11/M365 Basic (1Year)*/Office Home 2024/Quiet Blue/1.70 kg) X1502VA-BQ836WS |  |  | 
+2025-07-17 17:00:33,001 [INFO] Used fallback for product 3 link.
+2025-07-17 17:00:33,029 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-3
+2025-07-17 17:00:33,584 [INFO] Used fallback for product 4 link.
+2025-07-17 17:00:33,613 [INFO] 4. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-4
+2025-07-17 17:00:34,195 [INFO] Used fallback for product 5 link.
+2025-07-17 17:00:34,224 [INFO] 5. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-5
+2025-07-17 17:00:34,808 [INFO] Used fallback for product 6 link.
+2025-07-17 17:00:34,838 [INFO] 6. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-6
+2025-07-17 17:00:35,398 [INFO] Used fallback for product 7 link.
+2025-07-17 17:00:35,427 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-7
+2025-07-17 17:00:35,984 [INFO] Used fallback for product 8 link.
+2025-07-17 17:00:36,019 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-8
+2025-07-17 17:00:36,578 [INFO] Used fallback for product 9 link.
+2025-07-17 17:00:36,609 [INFO] 9. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-9
+2025-07-17 17:00:37,172 [INFO] Used fallback for product 10 link.
+2025-07-17 17:00:37,201 [INFO] 10. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF0yc5DWjcHGjFuU45dp-vc7gI8a07Gs37Ehy8Oa-c2TgzpC-DcFp7wo-fwXrEC1H_HqqW2r716-ldGMrv-zh1Igk.APwRR-_dI3eMADwx9Hr-N35jUYoYdOACYn73Z_REmsc&dib_tag=se&keywords=laptop&qid=1752751827&sr=8-10
+2025-07-17 17:00:37,212 [INFO] Pagination ended or next button not found.
+2025-07-17 17:00:37,213 [INFO] Saved 10 products to: output/laptops.csv
+2025-07-17 17:00:43,143 [WARNING] Negative test failed.
+2025-07-17 17:00:43,384 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_170043.png
+2025-07-17 17:00:52,060 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 17:00:56,776 [INFO] Page 1: Found 22 products.
+2025-07-17 17:00:57,357 [WARNING] Product 1: Link not found.
+2025-07-17 17:00:57,406 [INFO] 1. HONOR 200 5G (8GB+256GB, Moonlight White) – 50MP+50MP+12MP Triple Camera with Dual OIS | 50MP Selfie | Quad-Curved AMOLED Display | AI-Powered MagicOS 9.0 | Without Charger |  |  | 
+2025-07-17 17:00:57,976 [WARNING] Product 2: Link not found.
+2025-07-17 17:00:58,032 [INFO] 2. Lava Storm Lite 5G (Cosmic Titanium, 4+4*GB RAM, 64GB Storage) | India's First MTK Dimensity 6400 Processor | 50MP AI Camera | IP64 Rated | 120 Hz Display | 5000 mAh Battery | Supports All 5G Bands |  |  | 
+2025-07-17 17:00:58,610 [INFO] Used fallback for product 3 link.
+2025-07-17 17:00:58,648 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-3
+2025-07-17 17:00:59,200 [INFO] Used fallback for product 4 link.
+2025-07-17 17:00:59,226 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-4
+2025-07-17 17:00:59,795 [INFO] Used fallback for product 5 link.
+2025-07-17 17:00:59,822 [INFO] 5. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-5
+2025-07-17 17:01:00,387 [INFO] Used fallback for product 6 link.
+2025-07-17 17:01:00,419 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-6
+2025-07-17 17:01:00,989 [INFO] Used fallback for product 7 link.
+2025-07-17 17:01:01,023 [INFO] 7. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-7
+2025-07-17 17:01:01,583 [INFO] Used fallback for product 8 link.
+2025-07-17 17:01:01,615 [INFO] 8. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-8
+2025-07-17 17:01:02,207 [INFO] Used fallback for product 9 link.
+2025-07-17 17:01:02,241 [INFO] 9. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  |  | https://www.amazon.in/Motorola-Fusion-Forest-256GB-Storage/dp/B0D4JM8B2Q/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-9
+2025-07-17 17:01:02,792 [INFO] Used fallback for product 10 link.
+2025-07-17 17:01:02,826 [INFO] 10. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfPmTgqQoIkrfPx7bLC4W3pA_gTpcA6_Eu_qODhu8grGyR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTUwSFlPGMctJpuXMqPE1zsgEf79O7TdfFdzaIW2Sl3NU64CpoIH7cq14p9zLb-WzOVfJ7T3mhfp1x_9DFur17n0g.r6xwXvaBILgixD3bqdOWxFx2qmHVlKysRLJbfUVW5rc&dib_tag=se&keywords=smartphone&qid=1752751854&sr=8-10
+2025-07-17 17:01:02,836 [INFO] Pagination ended or next button not found.
+2025-07-17 17:01:02,838 [INFO] Saved 10 products to: output/smartphones.csv
+2025-07-17 17:01:09,852 [WARNING] Negative test failed.
+2025-07-17 17:01:10,065 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_170109.png
+2025-07-17 17:14:11,632 [INFO] 'Continue shopping' button not found.
+2025-07-17 17:14:14,784 [INFO] Page 1: Found 22 products.
+2025-07-17 17:14:15,150 [INFO] Used fallback for product 3 link.
+2025-07-17 17:14:15,204 [INFO] 3. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_3?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-3
+2025-07-17 17:14:15,486 [INFO] Used fallback for product 4 link.
+2025-07-17 17:14:15,549 [INFO] 4. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_4?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-4
+2025-07-17 17:14:15,824 [INFO] Used fallback for product 5 link.
+2025-07-17 17:14:15,874 [INFO] 5. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_5?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-5
+2025-07-17 17:14:16,177 [INFO] Used fallback for product 6 link.
+2025-07-17 17:14:16,220 [INFO] 6. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-6
+2025-07-17 17:14:16,490 [INFO] Used fallback for product 7 link.
+2025-07-17 17:14:16,529 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-7
+2025-07-17 17:14:16,838 [INFO] Used fallback for product 8 link.
+2025-07-17 17:14:16,900 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-8
+2025-07-17 17:14:17,214 [INFO] Used fallback for product 9 link.
+2025-07-17 17:14:17,353 [INFO] 9. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_9?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-9
+2025-07-17 17:14:17,626 [INFO] Used fallback for product 10 link.
+2025-07-17 17:14:17,662 [INFO] 10. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_10?dib=eyJ2IjoiMSJ9._h7lA9_Q3AkyAbh1_iH9ARV4FIYMB8k-fNtiNnWoERXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vaSuLwEmcfqVRAR3Y5lnkmZp0HMGE5CkwbADdLfP2Pmhzu9LpuaeKRG3cYkWBPcigktx2Zxa4TrgDVNwF87i2NnDsooyeW9Qy0iZ2c7ynuHw.QdwQ32jbRNGUxEcohwpt54_qvEYF3UA_BtGnvbOxfto&dib_tag=se&keywords=laptop&qid=1752752651&sr=8-10
+2025-07-17 17:14:17,931 [WARNING] Product 11: Link not found.
+2025-07-17 17:14:17,978 [INFO] 11. HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,512GB SSD) Anti-Glare, Micro-edge,15.6''/39.6cm, FHD, Win11,M365,Office24, Silver,1.59kg, Iris Xe Graphics, FHD Camera w/privacy shutter, fd0577TU |  |  | 
+2025-07-17 17:14:18,246 [WARNING] Product 12: Link not found.
+2025-07-17 17:14:18,289 [INFO] 12. ASUS Vivobook 16,Snapdragon X,Copilot+ AI PC(Qualcomm Adreno iGPU/45TOPS/16GB RAM/512GB SSD/FHD+/16"/Backlit Keyboard/Windows 11/M365 Basic(1Year)*/Office Home 2024/Cool Silver/1.88 kg)X1607QA-MB050WS |  |  | 
+2025-07-17 17:14:18,301 [INFO] Pagination ended or next button not found.
+2025-07-17 17:14:18,304 [INFO] Saved 10 products to: output/laptops.csv
+2025-07-17 17:14:18,304 [INFO] Performing negative search test...
+2025-07-17 17:14:25,217 [WARNING] Negative test failed.
+2025-07-17 17:14:25,445 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_171425.png
+2025-07-17 17:14:38,615 [INFO] 'Continue shopping' button not found.
+2025-07-17 17:14:42,132 [INFO] Page 1: Found 22 products.
+2025-07-17 17:14:42,435 [INFO] Used fallback for product 3 link.
+2025-07-17 17:14:42,507 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-3
+2025-07-17 17:14:42,822 [INFO] Used fallback for product 4 link.
+2025-07-17 17:14:42,880 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-4
+2025-07-17 17:14:43,157 [INFO] Used fallback for product 5 link.
+2025-07-17 17:14:43,194 [INFO] 5. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-5
+2025-07-17 17:14:43,483 [INFO] Used fallback for product 6 link.
+2025-07-17 17:14:43,520 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-6
+2025-07-17 17:14:43,797 [INFO] Used fallback for product 7 link.
+2025-07-17 17:14:43,836 [INFO] 7. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-7
+2025-07-17 17:14:44,104 [INFO] Used fallback for product 8 link.
+2025-07-17 17:14:44,143 [INFO] 8. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  |  | https://www.amazon.in/Motorola-Fusion-Forest-256GB-Storage/dp/B0D4JM8B2Q/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-8
+2025-07-17 17:14:44,475 [INFO] Used fallback for product 9 link.
+2025-07-17 17:14:44,543 [INFO] 9. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-9
+2025-07-17 17:14:44,827 [INFO] Used fallback for product 10 link.
+2025-07-17 17:14:44,862 [INFO] 10. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfi1XGkTUgCPpqzxaxoRcaZLbgHPa7p5nk9BzBDRtZcyPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8g8QSavqJ3NGEFCh7p8kNr9bEE-Bq4AL68wqUlG1AEvhE.DSd0PpS3DHUH3WAGND502K3Mf7oqgjrYAoEfheCkTsM&dib_tag=se&keywords=smartphone&qid=1752752678&sr=8-10
+2025-07-17 17:14:45,139 [WARNING] Product 11: Link not found.
+2025-07-17 17:14:45,187 [INFO] 11. Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display |  |  | 
+2025-07-17 17:14:45,469 [WARNING] Product 12: Link not found.
+2025-07-17 17:14:45,507 [INFO] 12. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | 
+2025-07-17 17:14:45,519 [INFO] Pagination ended or next button not found.
+2025-07-17 17:14:45,521 [INFO] Saved 10 products to: output/smartphones.csv
+2025-07-17 17:14:45,521 [INFO] Performing negative search test...
+2025-07-17 17:14:52,533 [WARNING] Negative test failed.
+2025-07-17 17:14:52,766 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_171452.png
+2025-07-17 17:32:10,475 [INFO] 'Continue shopping' button not found.
+2025-07-17 17:32:13,696 [INFO] Page 1: Found 22 products.
+2025-07-17 17:32:13,994 [INFO] Used fallback for product 3 link.
+2025-07-17 17:32:14,079 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-3
+2025-07-17 17:32:14,375 [INFO] Used fallback for product 4 link.
+2025-07-17 17:32:14,418 [INFO] 4. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-4
+2025-07-17 17:32:14,725 [INFO] Used fallback for product 5 link.
+2025-07-17 17:32:14,773 [INFO] 5. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-5
+2025-07-17 17:32:15,063 [INFO] Used fallback for product 6 link.
+2025-07-17 17:32:15,115 [INFO] 6. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-6
+2025-07-17 17:32:15,409 [INFO] Used fallback for product 7 link.
+2025-07-17 17:32:15,456 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-7
+2025-07-17 17:32:15,751 [INFO] Used fallback for product 8 link.
+2025-07-17 17:32:15,792 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-8
+2025-07-17 17:32:16,065 [INFO] Used fallback for product 9 link.
+2025-07-17 17:32:16,109 [INFO] 9. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-9
+2025-07-17 17:32:16,392 [INFO] Used fallback for product 10 link.
+2025-07-17 17:32:16,435 [INFO] 10. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.RqaFBtYV5CDb1bN-GOL_EigQ_fxPeUCU7ai4-9WXE4w&dib_tag=se&keywords=laptop&qid=1752753730&sr=8-10
+2025-07-17 17:32:16,723 [WARNING] Product 11: Link not found.
+2025-07-17 17:32:16,777 [INFO] 11. ASUS Vivobook 16,Snapdragon X,Copilot+ AI PC(Qualcomm Adreno iGPU/45TOPS/16GB RAM/512GB SSD/FHD+/16"/Backlit Keyboard/Windows 11/M365 Basic(1Year)*/Office Home 2024/Cool Silver/1.88 kg)X1607QA-MB050WS |  |  | 
+2025-07-17 17:32:17,055 [WARNING] Product 12: Link not found.
+2025-07-17 17:32:17,106 [INFO] 12. ASUS Zenbook 14,Intel Core Ultra 7 (Series 2),Thin & Light(Intel Arc iGPU/32GB/1TB/3K OLED Touch screen/14/120Hz/Windows 11/M365 Basic (1Year)*/Office Home 2024/Ponder Blue/1.28 kg) UX3405CA-PZ163WS |  |  | 
+2025-07-17 17:32:17,135 [INFO] Pagination ended or next button not found.
+2025-07-17 17:32:17,139 [INFO] Saved 10 products to: output/laptops.csv
+2025-07-17 17:32:17,139 [INFO] Performing negative search test...
+2025-07-17 17:32:25,347 [WARNING] Negative test failed.
+2025-07-17 17:32:25,731 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_173225.png
+2025-07-17 17:32:34,907 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 17:32:42,259 [INFO] Page 1: Found 22 products.
+2025-07-17 17:32:42,587 [INFO] Used fallback for product 3 link.
+2025-07-17 17:32:42,640 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-3
+2025-07-17 17:32:42,917 [INFO] Used fallback for product 4 link.
+2025-07-17 17:32:42,957 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-4
+2025-07-17 17:32:43,250 [INFO] Used fallback for product 5 link.
+2025-07-17 17:32:43,291 [INFO] 5. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-5
+2025-07-17 17:32:43,586 [INFO] Used fallback for product 6 link.
+2025-07-17 17:32:43,644 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-6
+2025-07-17 17:32:43,923 [INFO] Used fallback for product 7 link.
+2025-07-17 17:32:43,965 [INFO] 7. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  |  | https://www.amazon.in/Motorola-Fusion-Forest-256GB-Storage/dp/B0D4JM8B2Q/ref=sr_1_7?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-7
+2025-07-17 17:32:44,256 [INFO] Used fallback for product 8 link.
+2025-07-17 17:32:44,304 [INFO] 8. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_8?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-8
+2025-07-17 17:32:44,596 [INFO] Used fallback for product 9 link.
+2025-07-17 17:32:44,639 [INFO] 9. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_9?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-9
+2025-07-17 17:32:44,917 [INFO] Used fallback for product 10 link.
+2025-07-17 17:32:44,956 [INFO] 10. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_10?crid=3B5HW35ZXDGRP&dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwJIM_NcLUePlW_hNKy-RNOicQAgY4qps1bxWkYHQ-Nd3f09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9XgHzBmYzITnM5nCEUZb_ndxVkAXb2eMnyd76-z4JgQ44.fa9NipTVcPZaj_9zjMuQt6lJrtChZ0wS9B--06dGrGo&dib_tag=se&keywords=smartphone&qid=1752753758&sprefix=%2Caps%2C283&sr=8-10
+2025-07-17 17:32:45,223 [WARNING] Product 11: Link not found.
+2025-07-17 17:32:45,257 [INFO] 11. Redmi Note 14 5G (Titan Black, 6GB RAM 128GB Storage) | Global Debut MTK Dimensity 7025 Ultra | 2100 nits Segment Brightest 120Hz AMOLED | 50MP Sony LYT 600 OIS+EIS Triple Camera |  |  | 
+2025-07-17 17:32:45,542 [WARNING] Product 12: Link not found.
+2025-07-17 17:32:45,602 [INFO] 12. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | 
+2025-07-17 17:32:45,625 [INFO] Pagination ended or next button not found.
+2025-07-17 17:32:45,628 [INFO] Saved 10 products to: output/smartphones.csv
+2025-07-17 17:32:45,629 [INFO] Performing negative search test...
+2025-07-17 17:32:53,761 [WARNING] Negative test failed.
+2025-07-17 17:32:54,012 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_173253.png
+2025-07-17 17:39:02,387 [CRITICAL] Unexpected failure during crawl for 'laptop': crawl_products() got an unexpected keyword argument 'max_pages'
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\main.py", line 17, in main
+    data = crawl_products(term, max_pages=1, headless=False)
+TypeError: crawl_products() got an unexpected keyword argument 'max_pages'
+2025-07-17 17:39:02,389 [CRITICAL] Unexpected failure during crawl for 'smartphone': crawl_products() got an unexpected keyword argument 'max_pages'
+Traceback (most recent call last):
+  File "C:\Users\ssvga\OneDrive\Desktop\ecommerce-crawler\main.py", line 17, in main
+    data = crawl_products(term, max_pages=1, headless=False)
+TypeError: crawl_products() got an unexpected keyword argument 'max_pages'
+2025-07-17 17:41:48,584 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 17:41:54,015 [INFO] Found 22 products for 'laptop'.
+2025-07-17 17:41:54,356 [INFO] Product 1: Used fallback for link.
+2025-07-17 17:41:54,445 [INFO] 1. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-3
+2025-07-17 17:41:54,755 [INFO] Product 2: Used fallback for link.
+2025-07-17 17:41:54,822 [INFO] 2. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-4
+2025-07-17 17:41:55,111 [INFO] Product 3: Used fallback for link.
+2025-07-17 17:41:55,171 [INFO] 3. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-5
+2025-07-17 17:41:55,452 [INFO] Product 4: Used fallback for link.
+2025-07-17 17:41:55,547 [INFO] 4. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-6
+2025-07-17 17:41:55,889 [INFO] Product 5: Used fallback for link.
+2025-07-17 17:41:55,930 [INFO] 5. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-7
+2025-07-17 17:41:56,227 [INFO] Product 6: Used fallback for link.
+2025-07-17 17:41:56,270 [INFO] 6. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-8
+2025-07-17 17:41:56,546 [INFO] Product 7: Used fallback for link.
+2025-07-17 17:41:56,586 [INFO] 7. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-9
+2025-07-17 17:41:56,855 [INFO] Product 8: Used fallback for link.
+2025-07-17 17:41:56,900 [INFO] 8. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.37fBY30faxUiaeG5_4IXKe1tH1eGonDQxVdgOMcbjJg&dib_tag=se&keywords=laptop&qid=1752754310&sr=8-10
+2025-07-17 17:41:57,177 [WARNING] Product 9: Missing link. Skipping.
+2025-07-17 17:41:57,222 [WARNING] Product 9: Skipped due to missing title or link.
+2025-07-17 17:41:57,491 [WARNING] Product 10: Missing link. Skipping.
+2025-07-17 17:41:57,529 [WARNING] Product 10: Skipped due to missing title or link.
+2025-07-17 17:41:57,532 [INFO] Saved 8 items to: output/laptops.csv
+2025-07-17 17:42:06,342 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 17:42:11,053 [INFO] Found 22 products for 'smartphone'.
+2025-07-17 17:42:11,390 [INFO] Product 1: Used fallback for link.
+2025-07-17 17:42:11,435 [INFO] 1. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-3
+2025-07-17 17:42:11,716 [INFO] Product 2: Used fallback for link.
+2025-07-17 17:42:11,755 [INFO] 2. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-4
+2025-07-17 17:42:12,123 [INFO] Product 3: Used fallback for link.
+2025-07-17 17:42:12,177 [INFO] 3. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-5
+2025-07-17 17:42:12,512 [INFO] Product 4: Used fallback for link.
+2025-07-17 17:42:12,565 [INFO] 4. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-6
+2025-07-17 17:42:12,836 [INFO] Product 5: Used fallback for link.
+2025-07-17 17:42:12,880 [INFO] 5. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-7
+2025-07-17 17:42:13,157 [INFO] Product 6: Used fallback for link.
+2025-07-17 17:42:13,200 [INFO] 6. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  |  | https://www.amazon.in/Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-8
+2025-07-17 17:42:13,489 [INFO] Product 7: Used fallback for link.
+2025-07-17 17:42:13,539 [INFO] 7. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-9
+2025-07-17 17:42:13,817 [INFO] Product 8: Used fallback for link.
+2025-07-17 17:42:13,909 [INFO] 8. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfGja4DXAowa8Jhr1oxM43ulAtvc92yesrNJqzUVRw6PeR_Se0_2lrHwYoL5DG77LFw1yrqSVzN_lK_lGiIzeTU_qJO8KadEeY78XP2XEW_akf79O7TdfFdzaIW2Sl3NU6rCFMHINFTw5zpbDn0fkVjhKIbZT4Qirj_c7M_yPMSg8.HduqqVT2azWRlmOYzzPPnXf8NDuwXREAOUZTfDcsJJ0&dib_tag=se&keywords=smartphone&qid=1752754328&sr=8-10
+2025-07-17 17:42:14,219 [WARNING] Product 9: Missing link. Skipping.
+2025-07-17 17:42:14,260 [WARNING] Product 9: Skipped due to missing title or link.
+2025-07-17 17:42:14,545 [WARNING] Product 10: Missing link. Skipping.
+2025-07-17 17:42:14,597 [WARNING] Product 10: Skipped due to missing title or link.
+2025-07-17 17:42:14,599 [INFO] Saved 8 items to: output/smartphones.csv
+2025-07-17 18:01:10,973 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 18:01:15,697 [INFO] Page 1: Found 22 products.
+2025-07-17 18:01:15,997 [ERROR] Product 1: Link not found.
+2025-07-17 18:01:16,040 [INFO] 1. HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,512GB SSD) Anti-Glare, Micro-edge,15.6''/39.6cm, FHD, Win11,M365,Office24, Silver,1.59kg, Iris Xe Graphics, FHD Camera w/privacy shutter, fd0577TU |  |  | 
+2025-07-17 18:01:16,296 [ERROR] Product 2: Link not found.
+2025-07-17 18:01:16,399 [INFO] 2. HP Pavilion 13th Gen Intel Core i5-1340P (16GB RAM/512GB SSD) FHD, 15.6” (39.6cm), Windows 11/MS Office 21, Silver,1.74kg, eg3027TU 720p HD Camera, Backlit Keyboard, Audio by B&O Laptop |  |  | 
+2025-07-17 18:01:16,705 [INFO] Product 3: Used fallback for link.
+2025-07-17 18:01:16,743 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-3
+2025-07-17 18:01:17,029 [INFO] Product 4: Used fallback for link.
+2025-07-17 18:01:17,075 [INFO] 4. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-4
+2025-07-17 18:01:17,329 [INFO] Product 5: Used fallback for link.
+2025-07-17 18:01:17,359 [INFO] 5. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-5
+2025-07-17 18:01:17,657 [INFO] Product 6: Used fallback for link.
+2025-07-17 18:01:17,724 [INFO] 6. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-6
+2025-07-17 18:01:17,997 [INFO] Product 7: Used fallback for link.
+2025-07-17 18:01:18,033 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-7
+2025-07-17 18:01:18,317 [INFO] Product 8: Used fallback for link.
+2025-07-17 18:01:18,353 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-8
+2025-07-17 18:01:18,622 [INFO] Product 9: Used fallback for link.
+2025-07-17 18:01:18,778 [INFO] 9. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-9
+2025-07-17 18:01:19,114 [INFO] Product 10: Used fallback for link.
+2025-07-17 18:01:19,153 [INFO] 10. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9V8_-bHY01gDcRu1uU88qhiRyJoYFE1i07WeLUngXlFs.dUnOpTNt17dNQ3LL34QEbAX-Jig4EsJBvYJBkWCfpO4&dib_tag=se&keywords=laptop&qid=1752755473&sr=8-10
+2025-07-17 18:01:19,166 [INFO] Pagination ended or next button not found.
+2025-07-17 18:01:19,168 [INFO] Saved 10 items to: output/laptops.csv
+2025-07-17 18:01:19,168 [INFO] Performing negative search test...
+2025-07-17 18:01:26,365 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 18:01:26,595 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_180126.png
+2025-07-17 18:01:35,314 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 18:01:39,671 [INFO] Page 1: Found 22 products.
+2025-07-17 18:01:39,993 [ERROR] Product 1: Link not found.
+2025-07-17 18:01:40,032 [INFO] 1. HONOR 200 5G (8GB+256GB, Moonlight White) – 50MP+50MP+12MP Triple Camera with Dual OIS | 50MP Selfie | Quad-Curved AMOLED Display | AI-Powered MagicOS 9.0 | Without Charger |  |  | 
+2025-07-17 18:01:40,354 [ERROR] Product 2: Link not found.
+2025-07-17 18:01:40,382 [INFO] 2. Samsung Galaxy M06 5G (Sage Green, 4GB RAM, 64GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | 
+2025-07-17 18:01:40,661 [INFO] Product 3: Used fallback for link.
+2025-07-17 18:01:40,693 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-3
+2025-07-17 18:01:40,963 [INFO] Product 4: Used fallback for link.
+2025-07-17 18:01:40,996 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-4
+2025-07-17 18:01:41,272 [INFO] Product 5: Used fallback for link.
+2025-07-17 18:01:41,297 [INFO] 5. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-5
+2025-07-17 18:01:41,634 [INFO] Product 6: Used fallback for link.
+2025-07-17 18:01:41,674 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-6
+2025-07-17 18:01:41,966 [INFO] Product 7: Used fallback for link.
+2025-07-17 18:01:42,063 [INFO] 7. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-7
+2025-07-17 18:01:42,318 [INFO] Product 8: Used fallback for link.
+2025-07-17 18:01:42,350 [INFO] 8. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-8
+2025-07-17 18:01:42,628 [INFO] Product 9: Used fallback for link.
+2025-07-17 18:01:42,657 [INFO] 9. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-9
+2025-07-17 18:01:42,923 [INFO] Product 10: Used fallback for link.
+2025-07-17 18:01:42,954 [INFO] 10. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  |  | https://www.amazon.in/Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-ET_g59zhTexPtwlWzddPhfUyy5UZHafDEhIMNy6vYElm4pwamz-m8neYcDa8G5mbLnc3O0RaHJLUJHbrPUQGypjwX5lrh3CbFtZcIwzXr9hZOotKagsjIOzRcS5da_yqkf79O7TdfFdzaIW2Sl3NU66JCESnn7w2CDIYTa2EQnmc7qhxtgW-dCdB_z01-liuY.uzzmMJCu6K2VmxQbOq4BptieXng1EAhNZCvS7aSKHpA&dib_tag=se&keywords=smartphone&qid=1752755497&sr=8-10
+2025-07-17 18:01:42,965 [INFO] Pagination ended or next button not found.
+2025-07-17 18:01:42,966 [INFO] Saved 10 items to: output/smartphones.csv
+2025-07-17 18:01:42,966 [INFO] Performing negative search test...
+2025-07-17 18:01:52,235 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 18:01:52,431 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_180152.png
+2025-07-17 18:45:35,759 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 18:45:40,937 [INFO] Page 1: Found 22 products.
+2025-07-17 18:45:41,238 [ERROR] Product 1: Link not found.
+2025-07-17 18:45:41,274 [INFO] 1. HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,512GB SSD) Anti-Glare, Micro-edge,15.6''/39.6cm, FHD, Win11,M365,Office24, Silver,1.59kg, Iris Xe Graphics, FHD Camera w/privacy shutter, fd0577TU |  |  | 
+2025-07-17 18:45:41,572 [ERROR] Product 2: Link not found.
+2025-07-17 18:45:41,617 [INFO] 2. HP Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050 (Upgradeable 24GB DDR5, 1TB SSD) FHD, 144Hz, IPS, 300nits, 15.6''/39.6cm, Win11, M365*Office24, Mica Silver, 2.29kg, fa2309TX, RGB, Gaming Laptop |  |  | 
+2025-07-17 18:45:41,865 [INFO] Product 3: Used fallback for link.
+2025-07-17 18:45:41,896 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-3
+2025-07-17 18:45:42,157 [INFO] Product 4: Used fallback for link.
+2025-07-17 18:45:42,198 [INFO] 4. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-4
+2025-07-17 18:45:42,471 [INFO] Product 5: Used fallback for link.
+2025-07-17 18:45:42,497 [INFO] 5. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-5
+2025-07-17 18:45:42,867 [INFO] Product 6: Used fallback for link.
+2025-07-17 18:45:42,897 [INFO] 6. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-6
+2025-07-17 18:45:43,159 [INFO] Product 7: Used fallback for link.
+2025-07-17 18:45:43,187 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-7
+2025-07-17 18:45:43,479 [INFO] Product 8: Used fallback for link.
+2025-07-17 18:45:43,525 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-8
+2025-07-17 18:45:43,792 [INFO] Product 9: Used fallback for link.
+2025-07-17 18:45:43,831 [INFO] 9. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-9
+2025-07-17 18:45:44,085 [INFO] Product 10: Used fallback for link.
+2025-07-17 18:45:44,115 [INFO] 10. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlFuktj0kDFAySOKeFZYDe-z5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9d1w43NsdGI2mfVUaoz1mPHG-EXIdc2fFgWappWF2oTQ.mX_UBHxncezgNzWCGH8faB27DDWqptIEkH50vboqFH8&dib_tag=se&keywords=laptop&qid=1752758138&sr=8-10
+2025-07-17 18:45:44,125 [INFO] Pagination ended or next button not found.
+2025-07-17 18:45:44,126 [INFO] Saved 10 items to: output/laptops.csv
+2025-07-17 18:45:44,126 [INFO] Performing negative search test...
+2025-07-17 18:45:50,833 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 18:45:51,075 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_184550.png
+2025-07-17 18:46:04,936 [INFO] 'Continue shopping' button not found.
+2025-07-17 18:46:07,466 [INFO] Page 1: Found 22 products.
+2025-07-17 18:46:07,866 [ERROR] Product 1: Link not found.
+2025-07-17 18:46:07,911 [INFO] 1. Redmi Note 14 Pro 5G Champagne Gold 8GB RAM 128GB Storage|50 MP Sony Camera Setup|Corning Gorilla Glass Victus 2 | 1.5K 3D Curved AMOLED | Mediatek Dimensity 7300- Ultra |IP68 IP69 |  |  | 
+2025-07-17 18:46:08,170 [ERROR] Product 2: Link not found.
+2025-07-17 18:46:08,200 [INFO] 2. Samsung Galaxy M06 5G (Blazing Black, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | 
+2025-07-17 18:46:08,455 [INFO] Product 3: Used fallback for link.
+2025-07-17 18:46:08,495 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-3
+2025-07-17 18:46:08,768 [INFO] Product 4: Used fallback for link.
+2025-07-17 18:46:08,807 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-4
+2025-07-17 18:46:09,112 [INFO] Product 5: Used fallback for link.
+2025-07-17 18:46:09,144 [INFO] 5. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-5
+2025-07-17 18:46:09,426 [INFO] Product 6: Used fallback for link.
+2025-07-17 18:46:09,452 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-6
+2025-07-17 18:46:09,701 [INFO] Product 7: Used fallback for link.
+2025-07-17 18:46:09,728 [INFO] 7. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  |  | https://www.amazon.in/Motorola-Fusion-Forest-256GB-Storage/dp/B0D4JM8B2Q/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-7
+2025-07-17 18:46:09,999 [INFO] Product 8: Used fallback for link.
+2025-07-17 18:46:10,040 [INFO] 8. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-8
+2025-07-17 18:46:10,310 [INFO] Product 9: Used fallback for link.
+2025-07-17 18:46:10,362 [INFO] 9. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-9
+2025-07-17 18:46:10,618 [INFO] Product 10: Used fallback for link.
+2025-07-17 18:46:10,652 [INFO] 10. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvRDPjvXbeJQdMsC0_wIdKxrPf09zWaUPAqXx2lnNfktf8-uu2L_UgrSaAT8ffaRTJ9wSFlPGMctJpuXMqPE1zsgHl9sDmg3J9qYXfHaaaYR8gT3YUL49IvDxaZE481QFk0KCAbK-O3RgxXkJnCOwwj8E.Uh7ikHjyELO7-XCq-8TS8DfJi0nHFKYm9P_7DxngE3c&dib_tag=se&keywords=smartphone&qid=1752758165&sr=8-10
+2025-07-17 18:46:10,662 [INFO] Pagination ended or next button not found.
+2025-07-17 18:46:10,663 [INFO] Saved 10 items to: output/smartphones.csv
+2025-07-17 18:46:10,664 [INFO] Performing negative search test...
+2025-07-17 18:46:16,760 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 18:46:16,955 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_184616.png
+2025-07-17 19:52:57,027 [INFO] 'Continue shopping' button not found.
+2025-07-17 19:52:59,914 [INFO] Page 1: Found 22 products.
+2025-07-17 19:53:00,296 [INFO] 1. HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,512GB SSD) Anti-Glare, Micro-edge,15.6''/39.6cm, FHD, Win11,M365,Office24, Silver,1.59kg, Iris Xe Graphics, FHD Camera w/privacy shutter, fd0577TU |  |  | 
+2025-07-17 19:53:00,675 [INFO] 2. HP Pavilion 16 AI Laptop, Intel Core Ultra 5 125U (14th Generation) 16 GB LPDDR5,1TB SSD,16-inch (40 cm), WUXGA, 300 nits, 1080p FHD IR Camera, Backlit Kb, (Win11+Office, Silver, 1.77 kg) 16-af0056TU |  |  | 
+2025-07-17 19:53:00,949 [INFO] Product 3: Used alt sponsored link.
+2025-07-17 19:53:00,981 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-3
+2025-07-17 19:53:01,229 [INFO] Product 4: Used alt sponsored link.
+2025-07-17 19:53:01,257 [INFO] 4. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-4
+2025-07-17 19:53:01,507 [INFO] Product 5: Used alt sponsored link.
+2025-07-17 19:53:01,534 [INFO] 5. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-5
+2025-07-17 19:53:01,818 [INFO] Product 6: Used alt sponsored link.
+2025-07-17 19:53:01,868 [INFO] 6. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-6
+2025-07-17 19:53:02,135 [INFO] Product 7: Used alt sponsored link.
+2025-07-17 19:53:02,196 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-7
+2025-07-17 19:53:02,452 [INFO] Product 8: Used alt sponsored link.
+2025-07-17 19:53:02,497 [INFO] 8. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-8
+2025-07-17 19:53:02,803 [INFO] Product 9: Used alt sponsored link.
+2025-07-17 19:53:02,839 [INFO] 9. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-9
+2025-07-17 19:53:03,106 [INFO] Product 10: Used alt sponsored link.
+2025-07-17 19:53:03,146 [INFO] 10. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7JBin--atY2IFMDWinISD8nr_sw74tg6TYY21PzNCE-3LojZrSu-EwAQyRg-NKTNb7uQAYrLuEi3PLc1hFxHO-T5c4YcLpRTipgV-iHQzQ-tkhV7EN_Ur3CakN49GIwF0_JCled6PC83Hvl1V7oRDGOobZSX-MCGyWsHluNOGnraVYp7Y3aZH0annZiZkZrlhVOkOF_ZQfuQKhjhIijw8l8.fM74zhq7X8MaG0vzkB_hbSGxzZDNldl77UcmDs_cYf4&dib_tag=se&keywords=laptop&qid=1752762177&sr=8-10
+2025-07-17 19:53:03,164 [INFO] Pagination ended or next button not found.
+2025-07-17 19:53:03,167 [INFO] Saved 10 items to: output/laptops.csv
+2025-07-17 19:53:03,167 [INFO] Performing negative search test...
+2025-07-17 19:53:09,748 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 19:53:10,018 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_195309.png
+2025-07-17 19:53:23,859 [INFO] 'Continue shopping' button not found.
+2025-07-17 19:53:29,187 [INFO] Page 1: Found 22 products.
+2025-07-17 19:53:29,579 [INFO] 1. Samsung Galaxy M06 5G (Blazing Black, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | 
+2025-07-17 19:53:29,934 [INFO] 2. Lava Storm Lite 5G (Cosmic Titanium, 4+4*GB RAM, 64GB Storage) | India's First MTK Dimensity 6400 Processor | 50MP AI Camera | IP64 Rated | 120 Hz Display | 5000 mAh Battery | Supports All 5G Bands |  |  | 
+2025-07-17 19:53:30,236 [INFO] Product 3: Used alt sponsored link.
+2025-07-17 19:53:30,266 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-3
+2025-07-17 19:53:30,543 [INFO] Product 4: Used alt sponsored link.
+2025-07-17 19:53:30,575 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-4
+2025-07-17 19:53:30,865 [INFO] Product 5: Used alt sponsored link.
+2025-07-17 19:53:30,912 [INFO] 5. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-5
+2025-07-17 19:53:31,220 [INFO] Product 6: Used alt sponsored link.
+2025-07-17 19:53:31,251 [INFO] 6. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-6
+2025-07-17 19:53:31,499 [INFO] Product 7: Used alt sponsored link.
+2025-07-17 19:53:31,528 [INFO] 7. Motorola Edge 50 Fusion 5G (Forest Blue, 12GB RAM, 256GB Storage) |  |  | https://www.amazon.in/Motorola-Fusion-Forest-256GB-Storage/dp/B0D4JM8B2Q/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-7
+2025-07-17 19:53:31,786 [INFO] Product 8: Used alt sponsored link.
+2025-07-17 19:53:31,834 [INFO] 8. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-8
+2025-07-17 19:53:32,101 [INFO] Product 9: Used alt sponsored link.
+2025-07-17 19:53:32,167 [INFO] 9. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-9
+2025-07-17 19:53:32,422 [INFO] Product 10: Used alt sponsored link.
+2025-07-17 19:53:32,454 [INFO] 10. POCO M6 Plus 5G Misty Lavender 8GB RAM 128GB ROM |  |  | https://www.amazon.in/POCO-Plus-Misty-Lavender-128GB/dp/B0D9KJXN82/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAFX-p5jbjWpaZq7bRTugc-Hf69riIBubLR8ktDPDw3MwqJHFpUKbAD4J5xzSDQDvROk6yvFT8CeBT6j8zbLo3JgSWqKD1qp6bFpkC5-KDVt0-uu2L_UgrSaAT8ffaRTJ98GqkbwYAA0x9MN1MuF986-gyb15zd4vSKVhFPFbTc9X8QSavqJ3NGEFCh7p8kNr9cx8ejbEp2XDe7yMlwdtDdU.1YLcm-1J9zlmoEwtJH6qX0Fxm9mmrg1pp_LNXa544rU&dib_tag=se&keywords=smartphone&qid=1752762204&sr=8-10
+2025-07-17 19:53:32,466 [INFO] Pagination ended or next button not found.
+2025-07-17 19:53:32,468 [INFO] Saved 10 items to: output/smartphones.csv
+2025-07-17 19:53:32,468 [INFO] Performing negative search test...
+2025-07-17 19:53:39,956 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 19:53:40,891 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_195339.png
+2025-07-17 19:55:54,634 [INFO] Clicked 'Continue shopping' button.
+2025-07-17 19:56:01,152 [INFO] Page 1: Found 22 products.
+2025-07-17 19:56:01,728 [INFO] 1. HP 15, 13th Gen Intel Core i5-1334U Laptop (16GB DDR4,512GB SSD) Anti-Glare, Micro-edge,15.6''/39.6cm, FHD, Win11,M365,Office24, Silver,1.59kg, Iris Xe Graphics, FHD Camera w/privacy shutter, fd0577TU |  |  | 
+2025-07-17 19:56:02,215 [INFO] 2. HP Pavilion 16 AI Laptop, Intel Core Ultra 5 125U (14th Generation) 16 GB LPDDR5,1TB SSD,16-inch (40 cm), WUXGA, 300 nits, 1080p FHD IR Camera, Backlit Kb, (Win11+Office, Silver, 1.77 kg) 16-af0056TU |  |  | 
+2025-07-17 19:56:02,493 [INFO] Product 3: Used alt sponsored link.
+2025-07-17 19:56:02,572 [INFO] 3. HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop |  |  | https://www.amazon.in/HP-Laptop-15-6-inch-Graphics-fc0154AU/dp/B0D3HG5CMG/ref=sr_1_3?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-3
+2025-07-17 19:56:02,829 [INFO] Product 4: Used alt sponsored link.
+2025-07-17 19:56:02,868 [INFO] 4. HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) FHD, IPS, Micro-Edge, 14"/35.6cm, Touchscreen 2-in-1, Win11, Office21, Silver, 1.51kg, ek1074TU, Iris Xe, FPR, 5MP Camera Laptop |  |  | https://www.amazon.in/HP-Pavilion-i5-1335U-Laptop-Touchscreen/dp/B0CJ2KWNNQ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-4
+2025-07-17 19:56:03,134 [INFO] Product 5: Used alt sponsored link.
+2025-07-17 19:56:03,182 [INFO] 5. Dell Inspiron 3530, Intel Core i5-1334U, 13th Gen, 16GB RAM, 1TB SSD, FHD, 15.6"/39.62cm, Windows 11, MS Office 24, Silver, 1.62KG, Backlit Keyboard, McAfee 15 Month, Thin & Light Laptop |  |  | https://www.amazon.in/Dell-Inspiron-3530-i5-1334U-Keyboard/dp/B0DSFQZTVW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-5
+2025-07-17 19:56:03,454 [INFO] Product 6: Used alt sponsored link.
+2025-07-17 19:56:03,483 [INFO] 6. Lenovo IdeaPad Slim 3, Intel Core i5-12450H, 12th Gen, 16GB RAM, 512GB SSD, FHD, 14"/35.5cm, Windows 11, MS Office Home 2024, Grey, 1.37Kg, 83EQ0072IN, Alexa Built-in, 3 mon. Game Pass Laptop |  |  | https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-6
+2025-07-17 19:56:03,802 [INFO] Product 7: Used alt sponsored link.
+2025-07-17 19:56:03,837 [INFO] 7. HP 15, 13th Gen Intel Core i3-1315U Laptop (8GB DDR4, 512GB SSD) Anti-Glare, Micro-Edge, 15.6"/39.6cm, FHD, Win 11, MSO 21, Silver, 1.59kg, Intel UHD Graphics, 1080p FHD Camera, 15-fd0006TU/fd0186tu |  |  | https://www.amazon.in/HP-i3-1315U-Anti-Glare-Micro-Edge-Graphics/dp/B0D2KDCWJL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-7
+2025-07-17 19:56:04,110 [INFO] Product 8: Used alt sponsored link.
+2025-07-17 19:56:04,191 [INFO] 8. HP 15s, AMD Ryzen 5 5500U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, 15.6''/39.6 cm, Win 11, Office 21, Silver, 1.69 kg, eq2144AU, AMD Radeon Graphics, HD Camera, Dual Speakers Laptop |  |  | https://www.amazon.in/HP-Anti-Glare-15-6-inch-Graphics-eq2144AU/dp/B09RZRF1PJ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-8
+2025-07-17 19:56:04,484 [INFO] Product 9: Used alt sponsored link.
+2025-07-17 19:56:04,510 [INFO] 9. Acer Aspire Lite, AMD Ryzen 3 7330U Processor, 8 GB RAM, 512 GB SSD, Full HD, 15.6"/39.62cm, Windows 11 Home, Steel Gray, 1.6KG, AL15-41, Metal Body, Premium Thin and Light Laptop |  |  | https://www.amazon.in/Acer-Smartchoice-Premium-Windows-AL15-41/dp/B0CWTSF1TK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-9
+2025-07-17 19:56:04,767 [INFO] Product 10: Used alt sponsored link.
+2025-07-17 19:56:04,796 [INFO] 10. Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey |  |  | https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/ref=sr_1_10?dib=eyJ2IjoiMSJ9.CoVSOXHKpPY2VJXC-j8P7Mt5wgnntqIHsBriCkteBfXMyyVLk6kzUK4XsYyROMcGdVuCaAJTIBL_u2-a-UpVlL21FDYka-ZJNXYJYU1-4q1n_t5tXxjQ9S2nAnEw818vkhV7EN_Ur3CakN49GIwF00G6cPIgYEt-ZBAxySP3kFLCPVMZeih9DjE3keGB0pE9UpAUDAAvVi2xf7FBn6nvwnG-EXIdc2fFgWappWF2oTQ.quAEfkDlrlhHVL_ZaXovjViMqoaqh_RsNvSUBkKmRZc&dib_tag=se&keywords=laptop&qid=1752762358&sr=8-10
+2025-07-17 19:56:04,807 [INFO] Pagination ended or next button not found.
+2025-07-17 19:56:04,812 [INFO] Saved 10 items to: output/laptops.csv
+2025-07-17 19:56:04,812 [INFO] Performing negative search test...
+2025-07-17 19:56:11,432 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 19:56:11,664 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_195611.png
+2025-07-17 19:56:25,574 [INFO] 'Continue shopping' button not found.
+2025-07-17 19:56:28,589 [INFO] Page 1: Found 22 products.
+2025-07-17 19:56:28,954 [INFO] 1. Samsung Galaxy M06 5G (Blazing Black, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | 
+2025-07-17 19:56:29,287 [INFO] 2. Redmi A5 Just Black, 3GB RAM 64GB ROM |  |  | 
+2025-07-17 19:56:29,551 [INFO] Product 3: Used alt sponsored link.
+2025-07-17 19:56:29,579 [INFO] 3. Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger |  |  | https://www.amazon.in/Samsung-Storage-Display-Charging-Security/dp/B0DFY3XCB6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-3
+2025-07-17 19:56:29,845 [INFO] Product 4: Used alt sponsored link.
+2025-07-17 19:56:29,881 [INFO] 4. POCO C75 5G, Enchanted Green (4GB, 64GB) |  |  | https://www.amazon.in/POCO-C75-5G-Enchanted-Green/dp/B0DRKM9R41/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-4
+2025-07-17 19:56:30,128 [INFO] Product 5: Used alt sponsored link.
+2025-07-17 19:56:30,154 [INFO] 5. Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-5
+2025-07-17 19:56:30,406 [INFO] Product 6: Used alt sponsored link.
+2025-07-17 19:56:30,434 [INFO] 6. POCO M7 5G, Satin Black (6GB, 128GB) |  |  | https://www.amazon.in/POCO-Satin-Black-6GB-128GB/dp/B0F134C6R6/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-6
+2025-07-17 19:56:30,704 [INFO] Product 7: Used alt sponsored link.
+2025-07-17 19:56:30,735 [INFO] 7. Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-7
+2025-07-17 19:56:31,047 [INFO] Product 8: Used alt sponsored link.
+2025-07-17 19:56:31,086 [INFO] 8. Redmi 14C 5G (Stargaze Black, 6GB RAM, 128GB Storage) | Superfast 4nm Snapdragon 4 Gen 2 | 120Hz 17.47cm (6.88”) Display | 5160mAh Battery | 50MP Dual Camera | Premium Starlight Design |  |  | https://www.amazon.in/Redmi-Stargaze-Superfast-Snapdragon-Starlight/dp/B0DQV6PQ8M/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-8
+2025-07-17 19:56:31,344 [INFO] Product 9: Used alt sponsored link.
+2025-07-17 19:56:31,369 [INFO] 9. Samsung Galaxy M06 5G (Blazing Black, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands | 25W Fast Charging | 4 Gen. of OS Upgrades | Without Charger |  |  | https://www.amazon.in/Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6S111L/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-9
+2025-07-17 19:56:31,762 [INFO] Product 10: Used alt sponsored link.
+2025-07-17 19:56:31,811 [INFO] 10. Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |  |  | https://www.amazon.in/Redmi-Sparkle-Storage-Segment-Charging/dp/B0DLW44CGS/ref=sr_1_10?dib=eyJ2IjoiMSJ9.Lpo__3JGWpG4yDBoF6AAAAL3wTzA9YuAUnVwCXWYszA5KTR8fDySwsgzpy_D3iSrUyy5UZHafDEhIMNy6vYEllV1FmZZEQkchOnJpycC-kYl0z7bDXOEpLOKyTDXdm-sopdof49K_QDVTmG3jcNS2vqJO8KadEeY78XP2XEW_al7-fWUDYQFAk3aUuoxpjgC4DJBD0iZro6C7rPFRWN8_80PIbir15UNtSQhoaK1l8k.RFj5lDjyRXLyALWmgRBeL2-YJ3zy0-T5OYjvFhsgp54&dib_tag=se&keywords=smartphone&qid=1752762386&sr=8-10
+2025-07-17 19:56:31,822 [INFO] Pagination ended or next button not found.
+2025-07-17 19:56:31,823 [INFO] Saved 10 items to: output/smartphones.csv
+2025-07-17 19:56:31,823 [INFO] Performing negative search test...
+2025-07-17 19:56:37,860 [WARNING] Negative test failed. Unexpected content.
+2025-07-17 19:56:38,062 [INFO] Screenshot saved: screenshots/negative_test_failed_20250717_195637.png

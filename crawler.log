@@ -1,0 +1,12 @@
+2025-07-17 19:26:04,586 [INFO] ============================================================
+2025-07-17 19:26:04,586 [INFO] Starting crawl for: laptop
+2025-07-17 19:26:04,587 [INFO] ============================================================
+2025-07-17 19:26:12,291 [INFO] 'Continue shopping' popup not found
+2025-07-17 19:26:17,770 [INFO] Found 22 search result cards
+2025-07-17 19:26:18,587 [INFO] Successfully extracted 10 products for term 'laptop'
+2025-07-17 19:26:21,027 [INFO] ============================================================
+2025-07-17 19:26:21,027 [INFO] Starting crawl for: smartphone
+2025-07-17 19:26:21,027 [INFO] ============================================================
+2025-07-17 19:26:29,403 [INFO] 'Continue shopping' popup not found
+2025-07-17 19:26:34,713 [INFO] Found 22 search result cards
+2025-07-17 19:26:35,443 [INFO] Successfully extracted 10 products for term 'smartphone'

@@ -63,26 +63,32 @@ def crawl_amazon(search_term, max_pages=1, headless=False):
         for page in range(max_pages):
             wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.s-main-slot")))
             products = driver.find_elements(By.CSS_SELECTOR, "div.s-main-slot div[data-component-type='s-search-result']")
-            logging.info(f"Page {page+1}: Found {len(products)} products.")
+            logging.info(f"Page {page + 1}: Found {len(products)} products.")
 
             for idx, product in enumerate(products[:10]):
                 try:
+                    driver.execute_script("arguments[0].scrollIntoView();", product)
+                    time.sleep(0.2)
+
                     title_elem = product.find_element(By.XPATH, ".//h2/span")
                     title = title_elem.text.strip()
 
-                    # Try finding link, retry if not found
+                    # Robust product link extraction
+                    link = ""
                     try:
                         link_elem = product.find_element(By.XPATH, ".//h2/a")
                         link = link_elem.get_attribute("href")
                     except:
-                        logging.warning(f"Product {idx+1}: Link not found on first attempt. Retrying...")
-                        time.sleep(1)
                         try:
-                            link_elem = product.find_element(By.XPATH, ".//h2/a")
-                            link = link_elem.get_attribute("href")
+                            all_links = product.find_elements(By.TAG_NAME, "a")
+                            for alink in all_links:
+                                href = alink.get_attribute("href")
+                                if href and ("/dp/" in href or "/gp/" in href):
+                                    link = href
+                                    logging.info(f"Product {idx+1}: Used alt sponsored link.")
+                                    break
                         except:
-                            link = ""
-                            logging.error(f"Product {idx+1}: Link not found after retry.")
+                            logging.error(f"Product {idx+1}: Link extraction failed.")
 
                     price_elem = product.find_elements(By.CSS_SELECTOR, ".a-price .a-offscreen")
                     price = price_elem[0].text.strip() if price_elem else "N/A"
@@ -97,7 +103,7 @@ def crawl_amazon(search_term, max_pages=1, headless=False):
                         "link": link
                     })
 
-                    logging.info(f"{idx+1}. {title} | {price} | {rating}")
+                    logging.info(f"{idx+1}. {title} | {price} | {rating} | {link}")
 
                 except Exception as e:
                     logging.error(f"Skipped item {idx+1} due to error: {e}")
@@ -128,7 +134,7 @@ def crawl_amazon(search_term, max_pages=1, headless=False):
         else:
             logging.warning("No items scraped. CSV not created.")
 
-        # Negative test (can fail safely)
+        # Negative test (safe to fail)
         try:
             logging.info("Performing negative search test...")
             search_box = wait.until(EC.presence_of_element_located((By.ID, "twotabsearchtextbox")))

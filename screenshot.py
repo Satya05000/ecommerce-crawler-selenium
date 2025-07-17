@@ -1,4 +1,3 @@
-# screenshot.py
 import os
 import datetime
 

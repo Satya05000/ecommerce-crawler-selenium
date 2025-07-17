@@ -1,5 +1,3 @@
-# tester_utils.py
-
 import os
 import datetime
 from selenium import webdriver
